@@ -1,0 +1,57 @@
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:35:50.309Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:35:51.499Z"}
+{"level":"info","message":"User Utkarsh S made a DELETE request to /api/nurses/679a0c20cb6e061943d67cfa to delete nurse: Demo N","timestamp":"2025-01-29T11:35:53.716Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:35:56.422Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/allpatients?page=1&limit=10","timestamp":"2025-01-29T11:35:57.467Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:35:57.615Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/allNurses?page=1&limit=10","timestamp":"2025-01-29T11:35:58.353Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/allpatients?page=1&limit=10","timestamp":"2025-01-29T11:35:58.363Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/allNurses?page=1&limit=10","timestamp":"2025-01-29T11:35:59.221Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-29T11:35:59.625Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-29T11:36:00.184Z"}
+{"level":"info","message":"User Utkarsh S made a POST request to /api/patients/single to create patient: Dasd","timestamp":"2025-01-29T11:36:05.422Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/allpatients?page=1&limit=10","timestamp":"2025-01-29T11:36:08.298Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/allpatients?page=1&limit=10","timestamp":"2025-01-29T11:36:09.161Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/allNurses?page=1&limit=10","timestamp":"2025-01-29T11:36:09.163Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/allNurses?page=1&limit=10","timestamp":"2025-01-29T11:36:10.027Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-29T11:36:10.766Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/679a12a55bf2402bc4358801","timestamp":"2025-01-29T11:36:10.785Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-29T11:36:11.333Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/679a12a55bf2402bc4358801","timestamp":"2025-01-29T11:36:11.369Z"}
+{"level":"info","message":"User Utkarsh S made a PUT request to /api/patients/679a12a55bf2402bc4358801 to update patient: Demo A","timestamp":"2025-01-29T11:36:18.427Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/allpatients?page=1&limit=10","timestamp":"2025-01-29T11:36:19.329Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/allNurses?page=1&limit=10","timestamp":"2025-01-29T11:36:20.174Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/allpatients?page=1&limit=10","timestamp":"2025-01-29T11:36:20.183Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/allNurses?page=1&limit=10","timestamp":"2025-01-29T11:36:21.054Z"}
+{"level":"info","message":"User Utkarsh S made a DELETE request to /api/patients/679a12a55bf2402bc4358801 to delete patient: Demo A","timestamp":"2025-01-29T11:36:25.962Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/allpatients?page=1&limit=10","timestamp":"2025-01-29T11:36:26.830Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/allNurses?page=1&limit=10","timestamp":"2025-01-29T11:36:27.702Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:36:54.920Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-29T11:36:55.943Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:36:56.105Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-29T11:36:56.500Z"}
+{"level":"info","message":"User Utkarsh S made a POST request to /api/nurses to create nurse: Nurse D","timestamp":"2025-01-29T11:37:12.340Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:37:15.544Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:37:16.739Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-29T11:37:18.267Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/679a11b47dc4fda099e3d387","timestamp":"2025-01-29T11:37:18.599Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-29T11:37:18.823Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/679a11b47dc4fda099e3d387","timestamp":"2025-01-29T11:37:19.489Z"}
+{"level":"info","message":"User Utkarsh S made a PUT request to /api/nurses/679a11b47dc4fda099e3d387","timestamp":"2025-01-29T11:37:25.992Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:37:27.210Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:37:28.403Z"}
+{"level":"info","message":"User Utkarsh S made a DELETE request to /api/nurses/679a11b47dc4fda099e3d387 to delete nurse: Lala A","timestamp":"2025-01-29T11:37:31.395Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:37:34.075Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:37:35.266Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:38:25.382Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:38:26.511Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-29T11:38:27.067Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/679a12e45bf2402bc4358844","timestamp":"2025-01-29T11:38:27.286Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-29T11:38:27.689Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/679a12e45bf2402bc4358844","timestamp":"2025-01-29T11:38:28.126Z"}
+{"level":"info","message":"User Utkarsh S made a PUT request to /api/nurses/679a12e45bf2402bc4358844 to update nurse: Nurse D","timestamp":"2025-01-29T11:38:35.253Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:38:36.508Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:38:37.731Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:40:00.199Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-29T11:40:06.326Z"}
+{"level":"info","message":"User Utkarsh S made a POST request to /api/upload/profile-pic","timestamp":"2025-01-29T11:48:41.346Z"}

@@ -1,0 +1,40 @@
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:12:10.649Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:12:11.194Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:12:53.600Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:12:54.181Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/units","timestamp":"2025-01-30T07:12:55.086Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/units","timestamp":"2025-01-30T07:12:55.661Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a POST request to /api/nurses to create nurse: Utkarsh S","timestamp":"2025-01-30T07:13:04.451Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a POST request to /api/nurses to create nurse: Utkarsh S","timestamp":"2025-01-30T07:13:22.741Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:13:25.940Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:13:27.130Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a DELETE request to /api/nurses/679b268fe9abaa9b033e58b0 to delete nurse: Utkarsh S","timestamp":"2025-01-30T07:13:41.808Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:13:43.904Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:13:44.481Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/units","timestamp":"2025-01-30T07:16:39.917Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/units","timestamp":"2025-01-30T07:16:40.478Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a POST request to /api/nurses to create nurse: Srivastav S","timestamp":"2025-01-30T07:17:08.006Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:17:11.202Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:17:12.350Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a DELETE request to /api/nurses/679b276a3c3c17aaad0c5441","timestamp":"2025-01-30T07:17:26.462Z"}
+{"level":"info","message":"User usrivastav11@gmail.com made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:17:28.550Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:18:23.585Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:18:24.161Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-30T07:18:25.786Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/units","timestamp":"2025-01-30T07:18:26.368Z"}
+{"level":"info","message":"User Utkarsh S made a POST request to /api/nurses to create nurse: Asdasd A","timestamp":"2025-01-30T07:19:10.129Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:19:13.308Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:19:14.455Z"}
+{"level":"info","message":"User Utkarsh S made a DELETE request to /api/nurses/679b27eb3c3c17aaad0c5461 to delete nurse: Asdasd A","timestamp":"2025-01-30T07:20:59.605Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:21:01.726Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:21:02.323Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:22:15.297Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/myNurses?page=1&limit=1000","timestamp":"2025-01-30T07:22:15.888Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/assessment/details","timestamp":"2025-01-30T07:22:28.887Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/assessment/details","timestamp":"2025-01-30T07:22:29.490Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/allpatients?page=1&limit=10","timestamp":"2025-01-30T07:22:31.563Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/allNurses?page=1&limit=10","timestamp":"2025-01-30T07:22:32.147Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/patients/allpatients?page=1&limit=10","timestamp":"2025-01-30T07:22:32.450Z"}
+{"level":"info","message":"User Utkarsh S made a GET request to /api/nurses/allNurses?page=1&limit=10","timestamp":"2025-01-30T07:22:33.042Z"}
+{"level":"info","message":"User Utkarsh S made a POST request to /api/units/bulk","timestamp":"2025-01-30T07:47:38.192Z"}
+{"level":"info","message":"User Utkarsh S made a POST request to /api/units/bulk","timestamp":"2025-01-30T07:48:53.828Z"}
