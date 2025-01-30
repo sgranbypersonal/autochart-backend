@@ -1,0 +1,86 @@
+{
+  "Vitals": [
+    {
+      "Field Name": "Temperature auxiliary",
+      "Desired Format": "a number in Deg C"
+    },
+    {
+      "Field Name": "Temperature oral",
+      "Desired Format": "a number in Deg C"
+    },
+    {
+      "Field Name": "Peripheral pulse rate",
+      "Desired Format": "a number beats per minute"
+    },
+    {
+      "Field Name": "Apical heart rate",
+      "Desired Format": "a number beats per minute"
+    },
+    {
+      "Field Name": "Heart rate monitored",
+      "Desired Format": "a number beats per minute"
+    },
+    {
+      "Field Name": "Respiratory rate",
+      "Desired Format": "a number"
+    },
+    {
+      "Field Name": "Spo2",
+      "Desired Format": "a number (0-100%)"
+    },
+    {
+      "Field Name": "Oxygen flow rate",
+      "Desired Format": "a number"
+    },
+    {
+      "Field Name": "Oxygen therapy",
+      "Options": [
+        "Room air",
+        "Ambient oxygen",
+        "Aerosol mask",
+        "Aartificial airway",
+        "Blow-by",
+        "Face tent",
+        "Heated high-flow",
+        "High-flow",
+        "Humidification",
+        "Nasal Cannula",
+        "Nonrebreathermask",
+        "Simple mask",
+        "T-Piece",
+        "Trach mask",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "SBP/DBP",
+      "Desired Format": "a number/number"
+    },
+    {
+      "Field Name": "Cuff location",
+      "Options": ["Right arm", "Left arm", "Right leg", "Left Leg"]
+    },
+    {
+      "Field Name": "Map non-invasive",
+      "Desired Format": "a number"
+    },
+    {
+      "Field Name": "Covid-19 symptoms assessment",
+      "Options": [
+        "none",
+        "Fever",
+        "Chills",
+        "Cough/worsening chronic cough",
+        "Loss of sense of smell and/or taste",
+        "Difficulty Breathing",
+        "Sore throat/painful swallowing",
+        "Loss of appetite",
+        "Extreme fatigue or tiredness",
+        "Headache",
+        "Muscle aches",
+        "Nausea/vomiting",
+        "Diarrhea"
+      ]
+    }
+  ]
+}

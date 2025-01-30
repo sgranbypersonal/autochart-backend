@@ -1,0 +1,3644 @@
+{
+  "Vitals": [
+    {
+      "Field Name": "Temperature auxiliary",
+      "Prompt": "Extract the patient's temperature auxiliary.",
+      "Desired Format": "a number in Deg C"
+    },
+    {
+      "Field Name": "Temperature oral",
+      "Prompt": "Extract the patient's temperature oral.",
+      "Desired Format": "a number in Deg C"
+    },
+    {
+      "Field Name": "Peripheral pulse rate",
+      "Prompt": "Extract the patient's peripheral pulse rate.",
+      "Desired Format": "a number beats per minute"
+    },
+    {
+      "Field Name": "Apical heart rate",
+      "Prompt": "Extract the patient's apical heart rate.",
+      "Desired Format": "a number beats per minute"
+    },
+    {
+      "Field Name": "Heart rate monitored",
+      "Prompt": "Extract the patient's heart rate monitored.",
+      "Desired Format": "a number beats per minute"
+    },
+    {
+      "Field Name": "Respiratory rate",
+      "Prompt": "Extract the patient's respiratory rate.",
+      "Desired Format": "a number"
+    },
+    {
+      "Field Name": "Spo2",
+      "Prompt": "Extract the patient's spo2.",
+      "Desired Format": "a number (0-100%)"
+    },
+    {
+      "Field Name": "Oxygen flow rate",
+      "Prompt": "Extract the patient's oxygen flow rate.",
+      "Desired Format": "a number"
+    },
+    {
+      "Field Name": "Oxygen therapy",
+      "Prompt": "Extract the patient's oxygen therapy.",
+      "Options": [
+        "Room air",
+        "Ambient oxygen",
+        "Aerosol mask",
+        "Aartificial airway",
+        "Blow-by",
+        "Face tent",
+        "Heated high-flow",
+        "High-flow",
+        "Humidification",
+        "Nasal Cannula",
+        "Nonrebreathermask",
+        "Simple mask",
+        "T-Piece",
+        "Trach mask",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "SBP/DBP",
+      "Prompt": "Extract the patient's sbp/dbp.",
+      "Desired Format": "a number/number"
+    },
+    {
+      "Field Name": "Cuff location",
+      "Prompt": "Extract the patient's cuff location.",
+      "Options": ["Right arm", "Left arm", "Right leg", "Left Leg"]
+    },
+    {
+      "Field Name": "Map non-invasive",
+      "Prompt": "Extract the patient's map non-invasive.",
+      "Desired Format": "a number"
+    },
+    {
+      "Field Name": "Covid-19 symptoms assessment",
+      "Prompt": "Extract the patient's covid-19 symptoms assessment.",
+      "Options": [
+        "none",
+        "Fever",
+        "Chills",
+        "Cough/worsening chronic cough",
+        "Loss of sense of smell and/or taste",
+        "Difficulty Breathing",
+        "Sore throat/painful swallowing",
+        "Loss of appetite",
+        "Extreme fatigue or tiredness",
+        "Headache",
+        "Muscle aches",
+        "Nausea/vomiting",
+        "Diarrhea"
+      ]
+    }
+  ],
+  "Pain assessment": [
+    {
+      "Field Name": "Pain present",
+      "Prompt": "Extract the patient's pain present.",
+      "Options": ["No actual or suspected pain", "Yes actual or suspected pain"]
+    },
+    {
+      "Field Name": "Primary incision/puncture/device pain",
+      "Prompt": "Extract the patient's primary incision/puncture/device pain.",
+      "Options": ["No actual or suspected pain", "Yes actual or suspected pain"]
+    },
+    {
+      "Field Name": "Primary pain onset",
+      "Prompt": "Extract the patient's primary pain onset.",
+      "Options": ["Gradual", "Sudden"]
+    },
+    {
+      "Field Name": "Primary pain location",
+      "Prompt": "Extract the patient's primary pain location.",
+      "Options": [
+        "Abdomen",
+        "Achilles",
+        "Ankle",
+        "Arm",
+        "Back",
+        "Bladder",
+        "Breast",
+        "Buttock",
+        "Calf",
+        "Chest",
+        "Coccyx",
+        "Ear",
+        "Elbow",
+        "Epigastric",
+        "Eye",
+        "Face",
+        "Finger",
+        "Flank",
+        "Foot",
+        "Forearm",
+        "Generalized",
+        "Groin",
+        "Hand",
+        "Head",
+        "Heel",
+        "Hip",
+        "Iliac crest",
+        "Jaw",
+        "Knee",
+        "Leg",
+        "Lip",
+        "Lumbar",
+        "Mouth",
+        "Neck",
+        "Nipple",
+        "Nose",
+        "Pelvic",
+        "Penile",
+        "Perianal",
+        "Perineum",
+        "Rectal",
+        "Sacrum",
+        "Scalp",
+        "Scapula",
+        "Shoulder",
+        "Suprapubic",
+        "Testicular",
+        "Thigh",
+        "Throat",
+        "Toe",
+        "Tongue",
+        "Uterine",
+        "Vagina",
+        "Wrist",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Primary pain laterality",
+      "Prompt": "Extract the patient's primary pain laterality.",
+      "Options": [
+        "Anterior",
+        "Bilateral",
+        "Lower",
+        "Posterior",
+        "Right",
+        "Left",
+        "Upper"
+      ]
+    },
+    {
+      "Field Name": "Primary pain quality",
+      "Prompt": "Extract the patient's primary pain quality.",
+      "Options": [
+        "Aching",
+        "Burning",
+        "Cramping",
+        "Crushing",
+        "Discomfort",
+        "Dull",
+        "Heavy",
+        "Incisional",
+        "Pressure",
+        "Pricking",
+        "Pulling",
+        "Radiating",
+        "Sharp",
+        "Stabbing",
+        "Tenderness",
+        "Throbbing",
+        "Tightness",
+        "Unable to describe",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Primary pain provoking",
+      "Prompt": "Extract the patient's primary pain provoking.",
+      "Options": ["None", "Breathing", "Movement", "Palpation", "Other"]
+    },
+    {
+      "Field Name": "Primary pain palliating",
+      "Prompt": "Extract the patient's primary pain palliating.",
+      "Options": [
+        "None",
+        "Assistive devices",
+        "Cold therapy",
+        "Deep breathing",
+        "Exercise",
+        "Immobilization",
+        "Massage",
+        "Medications",
+        "Moist heat",
+        "Repositioning",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Primary pain radiation characteristics",
+      "Prompt": "Extract the patient's primary pain radiation characteristics.",
+      "Desired Format": "open text field"
+    },
+    {
+      "Field Name": "Primary pain comments",
+      "Prompt": "Extract the patient's primary pain comments.",
+      "Desired Format": "open text field"
+    },
+    {
+      "Field Name": "Pain tool used?",
+      "Prompt": "Extract the patient's pain tool used?.",
+      "Options": [
+        "Numeric pain scale",
+        "Verbal pain scale",
+        "Neuropathic Pain DN4 pain scale",
+        "PAINAD pain scale",
+        "Behavioural pain scale",
+        "rFACES pain scale",
+        "rFLACC pain scale",
+        "Visual Analogue pain scale"
+      ]
+    },
+    {
+      "Field Name": "Numeric pain score (0-10)",
+      "Prompt": "Extract the patient's numeric pain score (0-10)",
+      "Desired Format": "number from 1-10"
+    },
+    {
+      "Field Name": "Acceptable pain numeric",
+      "Prompt": "Extract the patient's acceptable pain numeric.",
+      "Desired Format": "number from 1-10"
+    },
+    {
+      "Field Name": "Numeric pain score with activity",
+      "Prompt": "Extract the patient's numeric pain score with activity.",
+      "Desired Format": "number from 1-10"
+    },
+    {
+      "Field Name": "Acceptable pain score with activity",
+      "Prompt": "Extract the patient's acceptable pain score with activity.",
+      "Desired Format": "number from 1-10"
+    },
+    {
+      "Field Name": "Numeric pain score at rest",
+      "Prompt": "Extract the patient's numeric pain score at rest.",
+      "Desired Format": "number from 1-10"
+    },
+    {
+      "Field Name": "Acceptable pain at rest, numeric",
+      "Prompt": "Extract the patient's acceptable pain at rest, numeric.",
+      "Desired Format": "number from 1-10"
+    }
+  ],
+  "Environmental Safety Management": [
+    {
+      "Field Name": "Bedside safety check",
+      "Prompt": "Extract the patient's bedside safety check.",
+      "Options": ["Yes", "No"]
+    },
+    {
+      "Field Name": "Alarms on and reviewed",
+      "Prompt": "Extract the patient's alarms on and reviewed.",
+      "Options": ["Yes", "N/A", "No"]
+    },
+    {
+      "Field Name": "Continuous monitoring",
+      "Prompt": "Extract the patient's continuous monitoring.",
+      "Options": ["SPO2", "Respiratory rate", "Heart rate", "Other"]
+    },
+    {
+      "Field Name": "Manage sensory impairment",
+      "Prompt": "Extract the patient's manage sensory impairment.",
+      "Options": [
+        "Communication board or device",
+        "Glasses",
+        "Hearing aids or amplification device",
+        "Large print reading material provided",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Patient Identification Verified",
+      "Prompt": "Extract the patient's patient identification verified.",
+      "Options": [
+        "Full name (first and last)",
+        "Birthdate",
+        "Identification band",
+        "MRN",
+        "PHN",
+        "Accurate photo with identifiers",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Allergy Band On",
+      "Prompt": "Extract the patient's allergy band on.",
+      "Options": ["Yes", "N/A", "No"]
+    },
+    {
+      "Field Name": "Call Bell within reach",
+      "Prompt": "Extract the patient's call bell within reach.",
+      "Options": ["Yes", "No"]
+    },
+    {
+      "Field Name": "Demo's ability uses called light with success",
+      "Prompt": "Extract the patient's demo's ability uses called light with success.",
+      "Options": ["Yes", "No"]
+    }
+  ],
+  "Mental Status/Cognition": [
+    {
+      "Field Name": "Level of consciousness",
+      "Prompt": "Extract the patient's level of consciousness.",
+      "Options": [
+        "Hyperalert",
+        "Alert",
+        "Lethargic",
+        "Obtunded",
+        "Stuporous",
+        "Comatose",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Depth of consciousness",
+      "Prompt": "Extract the patient's depth of consciousness.",
+      "Options": ["Unconscious", "Reacting", "Responding", "Conscious"]
+    },
+    {
+      "Field Name": "Orientation assessment",
+      "Prompt": "Extract the patient's orientation assessment.",
+      "Options": [
+        "Oriented",
+        "Identifies self",
+        "Not oriented to person",
+        "Not oriented to place",
+        "Not oriented to situation",
+        "Not oriented to time",
+        "Disoriented",
+        "Other"
+      ]
+    }
+  ],
+  "Activities of daily living": [
+    {
+      "Field Name": "Bathing",
+      "Prompt": "Extract the patient's bathing.",
+      "Options": [
+        "Independent",
+        "Set up help only",
+        "Supervision",
+        "Limited assist",
+        "Extensive assist",
+        "Maximal assistance",
+        "Total dependence",
+        "Activity did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Personal hygiene",
+      "Prompt": "Extract the patient's personal hygiene.",
+      "Options": [
+        "Independent",
+        "Set up help only",
+        "Supervision",
+        "Limited assist",
+        "Extensive assist",
+        "Maximal assistance",
+        "Total dependence",
+        "Activity did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Walking",
+      "Prompt": "Extract the patient's walking.",
+      "Options": [
+        "Independent",
+        "Set up help only",
+        "Supervision",
+        "Limited assist",
+        "Extensive assist",
+        "Maximal assistance",
+        "Total dependence",
+        "Activity did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Transfer toilet",
+      "Prompt": "Extract the patient's transfer toilet.",
+      "Options": [
+        "Independent",
+        "Set up help only",
+        "Supervision",
+        "Limited assist",
+        "Extensive assist",
+        "Maximal assistance",
+        "Total dependence",
+        "Activity did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Toilet use",
+      "Prompt": "Extract the patient's toilet use.",
+      "Options": [
+        "Independent",
+        "Set up help only",
+        "Supervision",
+        "Limited assist",
+        "Extensive assist",
+        "Maximal assistance",
+        "Total dependence",
+        "Activity did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Bed mobility",
+      "Prompt": "Extract the patient's bed mobility.",
+      "Options": [
+        "Independent",
+        "Set up help only",
+        "Supervision",
+        "Limited assist",
+        "Extensive assist",
+        "Maximal assistance",
+        "Total dependence",
+        "Activity did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Dressing",
+      "Prompt": "Extract the patient's dressing.",
+      "Options": [
+        "Independent",
+        "Set up help only",
+        "Supervision",
+        "Limited assist",
+        "Extensive assist",
+        "Maximal assistance",
+        "Total dependence",
+        "Activity did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Dressing upper body",
+      "Prompt": "Extract the patient's dressing upper body.",
+      "Options": [
+        "Independent",
+        "Set up help only",
+        "Supervision",
+        "Limited assist",
+        "Extensive assist",
+        "Maximal assistance",
+        "Total dependence",
+        "Activity did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Dressing lower body",
+      "Prompt": "Extract the patient's dressing lower body.",
+      "Options": [
+        "Independent",
+        "Set up help only",
+        "Supervision",
+        "Limited assist",
+        "Extensive assist",
+        "Maximal assistance",
+        "Total dependence",
+        "Activity did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Eating",
+      "Prompt": "Extract the patient's eating.",
+      "Options": [
+        "Independent",
+        "Set up help only",
+        "Supervision",
+        "Limited assist",
+        "Extensive assist",
+        "Maximal assistance",
+        "Total dependence",
+        "Activity did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Bladder continent",
+      "Prompt": "Extract the patient's bladder continent.",
+      "Options": [
+        "Continent",
+        "Control with any catheter or ostomy over last 24 hours",
+        "Infrequently incontinent",
+        "Frequently incontinent",
+        "Incontinent",
+        "Did not occur",
+        "Unknown"
+      ]
+    },
+    {
+      "Field Name": "Usual hours of sleep",
+      "Prompt": "Extract the patient's usual hours of sleep.",
+      "Desired Format": "number of hours"
+    },
+    {
+      "Field Name": "Sleeping behaviors",
+      "Prompt": "Extract the patient's sleeping behaviors.",
+      "Options": [
+        "Reports no problems",
+        "Difficulty awakening",
+        "Difficulty falling asleep",
+        "Difficulty sleeping at night",
+        "Early morning awakening",
+        "Excessive sleepiness",
+        "Enuresis",
+        "Middle of night awakening",
+        "Nightmares",
+        "Night terrors",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Sleeping assessment",
+      "Prompt": "Extract the patient's sleeping assessment.",
+      "Options": [
+        "Appears sleeping",
+        "respirations observed",
+        "Awake",
+        "Intermittent",
+        "Other"
+      ]
+    }
+  ],
+  "Mobility and Patient Care Metrics": [
+    {
+      "Field Name": "Assistive device",
+      "Prompt": "Extract the patient's assistive device.",
+      "Options": [
+        "None",
+        "Bed ladder",
+        "Cane",
+        "Crutches",
+        "Leg strap",
+        "Slider sheet",
+        "Trapeze",
+        "Transfer belt",
+        "Transfer board",
+        "Walker",
+        "frame",
+        "Walker",
+        "2 wheeled",
+        "Walker",
+        "4 wheeled",
+        "Walking poles",
+        "Wheelchair",
+        "manual",
+        "Wheelchair",
+        "power",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Weight-bearing performance",
+      "Prompt": "Extract the patient's weight-bearing performance.",
+      "Options": [
+        "Full weight bearing",
+        "Partial weight bearing",
+        "Feather weight bearing",
+        "Non weight bearing"
+      ]
+    },
+    {
+      "Field Name": "Lifting equipment",
+      "Prompt": "Extract the patient's lifting equipment.",
+      "Options": [
+        "Mechanical lift device",
+        "Overhead lift",
+        "Sit to stand device",
+        "Slide board/sheet",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Activity status ADL",
+      "Prompt": "Extract the patient's activity status adl.",
+      "Options": [
+        "Ambulating in hall",
+        "Ambulating in room",
+        "Bedrest with spinal precautions",
+        "Complete bedrest",
+        "Dangle",
+        "In bed",
+        "Play activities on mat",
+        "Reposition every 2 hours",
+        "Sleeping",
+        "Toileting at bedside",
+        "Up ad lib",
+        "Up to bathroom",
+        "Up to chair",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Bed Angle",
+      "Prompt": "Extract the patient's bed angle.",
+      "Options": [
+        "Flat",
+        "Less than 30 Degrees",
+        "30 to 44 Degrees",
+        "45 to 90 Degrees"
+      ]
+    },
+    {
+      "Field Name": "Specialty Bed Surface",
+      "Prompt": "Extract the patient's specialty bed surface.",
+      "Options": [
+        "Bariatric",
+        "Foam",
+        "Gel",
+        "Mattress with air pump",
+        "Moisture management overlay",
+        "Oscillating",
+        "Pulmonary therapy bed",
+        "Pulsating",
+        "Rotating",
+        "Waffle overlay",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Antiembolism Device/SCD",
+      "Prompt": "Extract the patient's antiembolism device/scd.",
+      "Options": [
+        "Antiembolism stockings",
+        "Bilateral",
+        "Full Leg",
+        "Left",
+        "Lower leg",
+        "Right",
+        "Sequential compression device",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Time dangled at bedside",
+      "Prompt": "Extract the patient's time dangled at bedside.",
+      "Desired Format": "minutes"
+    },
+    {
+      "Field Name": "Time up in Chair",
+      "Prompt": "Extract the patient's time up in chair.",
+      "Desired Format": "minutes"
+    },
+    {
+      "Field Name": "Ambulation Distance",
+      "Prompt": "Extract the patient's ambulation distance.",
+      "Desired Format": "Meters"
+    },
+    {
+      "Field Name": "Ambulation minutes",
+      "Prompt": "Extract the patient's ambulation minutes.",
+      "Desired Format": "minutes"
+    },
+    {
+      "Field Name": "Ambulation comments",
+      "Prompt": "Extract the patient's ambulation comments.",
+      "Desired Format": "Free text"
+    }
+  ],
+  "Measurements": [
+    {
+      "Field Name": "Weight measured",
+      "Prompt": "Extract the patient's weight measured.",
+      "Desired Format": "kg"
+    },
+    {
+      "Field Name": "Scale type",
+      "Prompt": "Extract the patient's scale type.",
+      "Options": [
+        "Bed scale",
+        "Chair",
+        "Infant/pediatric scale",
+        "Lift scale",
+        "Stand up",
+        "Wheelchair",
+        "Other"
+      ]
+    }
+  ],
+  "Behavior log": [
+    {
+      "Field Name": "Patient location",
+      "Prompt": "Extract the patient's patient location.",
+      "Options": [
+        "Bathroom",
+        "Classroom",
+        "Day/dining room",
+        "Exam room",
+        "Group room",
+        "Hallway",
+        "Interview room",
+        "Laundry room",
+        "Nurses station",
+        "Off unit",
+        "Office",
+        "Patient room",
+        "Playroom",
+        "Secure room/seclusion",
+        "Secured outdoor environment",
+        "TV room",
+        "Waiting room",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Patient affect",
+      "Prompt": "Extract the patient's patient affect.",
+      "Options": [
+        "Euthymic",
+        "Angry",
+        "Anxious",
+        "Bright",
+        "Downcast",
+        "Dysphoric",
+        "Elated",
+        "Fearful",
+        "Irritable",
+        "Tearful",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Behavior during interaction",
+      "Prompt": "Extract the patient's behavior during interaction.",
+      "Options": [
+        "Cooperative",
+        "Actively seeking exits",
+        "Aggressive",
+        "Angry",
+        "Apathetic",
+        "Apprehensive",
+        "Argumentative",
+        "Banging",
+        "Cursing",
+        "Directable",
+        "Disinhibited",
+        "Guarded",
+        "Hoarding",
+        "Ingratiating",
+        "Intimidating",
+        "Irritable",
+        "Isolative",
+        "Overfamiliar",
+        "Polite",
+        "Property destruction",
+        "Raised voice",
+        "Rude",
+        "Self-harming behaviour",
+        "Settled",
+        "Sexualized behaviour",
+        "Smearing",
+        "Spitting",
+        "Suspicious",
+        "Threatening",
+        "Toileting in room",
+        "Undressing",
+        "Wandering",
+        "Withdrawn",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Observation comment",
+      "Prompt": "Extract the patient's observation comment which should in few lines.",
+      "Desired Format": "Free text"
+    }
+  ],
+  "Provider Notification": [
+    {
+      "Field Name": "Notification Reason",
+      "Prompt": "Extract the patient's notification reason.",
+      "Options": [
+        "Bleeding/hemorrhage",
+        "Code blue activation",
+        "Code pink activation",
+        "Code amber activation",
+        "Code yellow activation",
+        "Code white activation",
+        "Other code activation",
+        "Condition change",
+        "Consult",
+        "Critical value reporting",
+        "Death",
+        "Fall",
+        "Lab results",
+        "Medication related problem",
+        "Medication request",
+        "Order clarification",
+        "Pain",
+        "Patient/family concerns",
+        "Patient/family declining treatment",
+        "PEWS alert",
+        "NEWS alert",
+        "MEOWS alert",
+        "NeoEWS alert",
+        "Provider requested parameters",
+        "Restraints/seclusion",
+        "Suspected SIRS alert",
+        "Suspected sepsis/septic shock alert",
+        "Vital signs",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Notification Details",
+      "Prompt": "Extract the patient's notification details.",
+      "Desired Format": "Free text"
+    },
+    {
+      "Field Name": " Provider at Bedside",
+      "Prompt": "Extract the patient's  provider at bedside eg nurse name.",
+      "Desired Format": "Name of provider Free text"
+    },
+    {
+      "Field Name": " Unable to Reach Provider",
+      "Prompt": "Extract the patient's  unable to reach provider.",
+      "Options": [
+        "Left message to contact",
+        "Pages and awaiting call back",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Provider Informed",
+      "Prompt": "Extract the patient's provider informed.",
+      "Desired Format": "Name of provider Free text"
+    },
+    {
+      "Field Name": " Provider Response Time",
+      "Prompt": "Extract the patient's  provider response time.",
+      "Desired Format": "Date, Month, Year, 00:00:00"
+    },
+    {
+      "Field Name": "Provider Requested Interventions",
+      "Prompt": "Extract the patient's provider requested interventions.",
+      "Options": [
+        "Orders received",
+        "No orders received",
+        "Continue to monitor",
+        "Other"
+      ]
+    }
+  ],
+  "Neurological assessment": [
+    {
+      "Field Name": "Neurological symptoms reported?",
+      "Prompt": "Extract the patient's neurological symptoms reported?.",
+      "Options": [
+        "None",
+        "Concentration difficulties",
+        "Confusion/disorientation",
+        "Difficulty expressing thoughts",
+        "Faintness",
+        "Hallucinations",
+        "Headaches",
+        "Memory problems",
+        "Paralysis",
+        "Seizures",
+        "Sensitivity to light",
+        "Slurred speech",
+        "Uncoordinated movement",
+        "Visual changes",
+        "Weakness",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Ptosis, left eye",
+      "Prompt": "Extract the patient's ptosis, left eye.",
+      "Options": ["Absent", "Partial", "Complete"]
+    },
+    {
+      "Field Name": "Ptosis, right eye",
+      "Prompt": "Extract the patient's ptosis, right eye.",
+      "Options": ["Absent", "Partial", "Complete"]
+    },
+    {
+      "Field Name": "Nystagmus",
+      "Prompt": "Extract the patient's nystagmus.",
+      "Options": [
+        "Absent",
+        "Present all gazes",
+        "Present downward gaze",
+        "Present lateral gaze",
+        "Present medial gaze",
+        "Present upward gaze",
+        "Unable to assess"
+      ]
+    },
+    {
+      "Field Name": "Diplopia",
+      "Prompt": "Extract the patient's diplopia.",
+      "Options": ["Absent", "Present", "Unable to assess"]
+    },
+    {
+      "Field Name": "Characteristics of communication",
+      "Prompt": "Extract the patient's characteristics of communication.",
+      "Options": [
+        "Appropriate for developmental age",
+        "Expressive language difficulty",
+        "No communicative intent",
+        "Receptive language difficulty",
+        "Inappropriate",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Characteristics of speech",
+      "Prompt": "Extract the patient's characteristics of speech.",
+      "Options": [
+        "Clear",
+        "Accent",
+        "Artificial airway",
+        "cannot speak",
+        "Aphonic",
+        "Cry",
+        "Delayed",
+        "Disturbance in voice pitch or intensity",
+        "Garbled",
+        "Gurgled",
+        "Hoarse",
+        "Hyperverbal",
+        "Imprecise",
+        "Inarticulate",
+        "Loud",
+        "Low volume",
+        "Mute",
+        "Nasal",
+        "No vocalization",
+        "Pressured",
+        "Profane or vulgar",
+        "Slowed",
+        "Slurred",
+        "Soft",
+        "Stutters",
+        "Tremulous",
+        "Unable to assess",
+        "Unintelligible",
+        "Weak",
+        "Wet-sounding",
+        "Whispers",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Characteristics of expression",
+      "Prompt": "Extract the patient's characteristics of expression.",
+      "Options": [
+        "Appropriate for developmental age",
+        "Speaks full sentences",
+        "Speaks one or two word sentences",
+        "English as a second language (ESL)",
+        "Does not speak English",
+        "Assistive device",
+        "Delayed speech development",
+        "Unable to understand",
+        "Unable to assess",
+        "Able to write",
+        "Expresses complex/abstract ideas",
+        "Expresses Concrete Communication",
+        "Expresses personal needs",
+        "Expresses self with gestures",
+        "Slow to express self"
+      ]
+    },
+    {
+      "Field Name": "Characteristics of comprehension",
+      "Prompt": "Extract the patient's characteristics of comprehension.",
+      "Options": [
+        "Able to read",
+        "Appropriate for developmental age",
+        "Assistive device",
+        "Comprehends communication regarding personal needs",
+        "Comprehends complex/abstract ideas",
+        "Comprehends concrete communication",
+        "Comprehends full sentences",
+        "Comprehends gestural cues",
+        "Comprehends one or two word sentences",
+        "Does not understand English",
+        "English as a second language (ESL)",
+        "Slow to comprehend",
+        "Unable to comprehend gestural communication",
+        "Unable to comprehend",
+        "Unable to assess"
+      ]
+    },
+    {
+      "Field Name": "Ability to follow command",
+      "Prompt": "Extract the patient's ability to follow command.",
+      "Options": [
+        "Able to follow complex command",
+        "Slowed complex command response",
+        "Able to follow single command",
+        "Unable to follow direct command",
+        "Unable to follow visual guided command",
+        "Hypoactive/lethargic",
+        "minimal response",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Aspiration risk",
+      "Prompt": "Extract the patient's aspiration risk.",
+      "Options": [
+        "None",
+        "Cough/Frequent throat clearing with oral intake",
+        "Decreased ability to handle secretions",
+        "Difficulty swallowing liquids",
+        "thick",
+        "Difficulty swallowing liquids",
+        "thin",
+        "Difficulty swallowing pills",
+        "Difficulty swallowing saliva",
+        "Difficulty swallowing solids",
+        "Weak",
+        "ineffective cough",
+        "Wet sounding voice",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Facial symmetry",
+      "Prompt": "Extract the patient's facial symmetry.",
+      "Options": [
+        "Symmetric",
+        "Drooping left side of face",
+        "Drooping right side of face",
+        "Drooping left side of mouth",
+        "Drooping right side of mouth",
+        "Unequal facial movements",
+        "Other"
+      ]
+    }
+  ],
+  "Pupils assessment": [
+    {
+      "Field Name": "PERRLA",
+      "Prompt": "Extract the patient's perrla.",
+      "Options": ["Yes", "No"]
+    },
+    {
+      "Field Name": "Right pupil description",
+      "Prompt": "Extract the patient's right pupil description.",
+      "Options": [
+        "Regular",
+        "Irregular",
+        "Keyhole",
+        "Opaque",
+        "Ovoid",
+        "Round",
+        "Unable to Assess"
+      ]
+    },
+    {
+      "Field Name": "Left pupil description",
+      "Prompt": "Extract the patient's left pupil description.",
+      "Options": [
+        "Regular",
+        "Irregular",
+        "Keyhole",
+        "Opaque",
+        "Ovoid",
+        "Round",
+        "Unable to Assess"
+      ]
+    },
+    {
+      "Field Name": "Right pupil reaction",
+      "Prompt": "Extract the patient's right pupil reaction.",
+      "Options": [
+        "Brisk",
+        "Dilated",
+        "Fixed",
+        "Sluggish",
+        "Nonreactive",
+        "Hippus",
+        "Pinpoint",
+        "Consensual light reflex present",
+        "Consensual light reflex absent",
+        "Unable to Assess"
+      ]
+    },
+    {
+      "Field Name": "Left pupil reaction",
+      "Prompt": "Extract the patient's left pupil reaction.",
+      "Options": [
+        "Brisk",
+        "Dilated",
+        "Fixed",
+        "Sluggish",
+        "Nonreactive",
+        "Hippus",
+        "Pinpoint",
+        "Consensual light reflex present",
+        "Consensual light reflex absent",
+        "Unable to Assess"
+      ]
+    },
+    {
+      "Field Name": "Right pupil size",
+      "Prompt": "Extract the patient's right pupil size.",
+      "Desired Format": "in mm"
+    },
+    {
+      "Field Name": "Left pupil size",
+      "Prompt": "Extract the patient's left pupil size.",
+      "Desired Format": "in mm"
+    },
+    {
+      "Field Name": "Pupil accommodation, right",
+      "Prompt": "Extract the patient's pupil accommodation, right.",
+      "Options": ["Convergence", "Pupil constriction", "Unable to assess"]
+    },
+    {
+      "Field Name": "Pupil accommodation, left",
+      "Prompt": "Extract the patient's pupil accommodation, left.",
+      "Options": ["Convergence", "Pupil constriction", "Unable to assess"]
+    },
+    {
+      "Field Name": "Eye abnormality right",
+      "Prompt": "Extract the patient's eye abnormality right.",
+      "Options": [
+        "Cataract",
+        "Clogged tear duct",
+        "Conjunctivitis",
+        "Enucleated",
+        "Hazy film",
+        "Jaundiced",
+        "Prosthesis",
+        "Scleral edema",
+        "Swollen closed",
+        "Trauma"
+      ]
+    },
+    {
+      "Field Name": "Eye abnormality, left",
+      "Prompt": "Extract the patient's eye abnormality, left.",
+      "Options": [
+        "Cataract",
+        "Clogged tear duct",
+        "Conjunctivitis",
+        "Enucleated",
+        "Hazy film",
+        "Jaundiced",
+        "Prosthesis",
+        "Scleral edema",
+        "Swollen closed",
+        "Trauma"
+      ]
+    },
+    {
+      "Field Name": "Abnormal eye movement right",
+      "Prompt": "Extract the patient's abnormal eye movement right.",
+      "Options": [
+        "Dysconjugate gaze",
+        "Eyes rolled back",
+        "Gaze deviation left",
+        "Gaze deviation right",
+        "Nystagmus"
+      ]
+    },
+    {
+      "Field Name": "Abnormal eye movement left",
+      "Prompt": "Extract the patient's abnormal eye movement left.",
+      "Options": [
+        "Dysconjugate gaze",
+        "Eyes rolled back",
+        "Gaze deviation left",
+        "Gaze deviation right",
+        "Nystagmus"
+      ]
+    },
+    {
+      "Field Name": "Hemianopia",
+      "Prompt": "Extract the patient's hemianopia.",
+      "Options": [
+        "Left hemianopia",
+        "Right hemianopia",
+        "Tunnel vision",
+        "Other"
+      ]
+    }
+  ],
+  "Glasgow Coma Assessment": [
+    {
+      "Field Name": "Eye opening response",
+      "Prompt": "Extract the patient's eye opening response.",
+      "Options": [
+        "4-Spontaneously",
+        "3-To sound",
+        "2-To pressure",
+        "1-None",
+        "NT- Non testable"
+      ]
+    },
+    {
+      "Field Name": "Verbal response",
+      "Prompt": "Extract the patient's verbal response.",
+      "Options": [
+        "5-Oriented",
+        "4-Confused",
+        "3-Words",
+        "2-Sounds",
+        "1-None",
+        "NT- Non testable"
+      ]
+    },
+    {
+      "Field Name": "Motor response",
+      "Prompt": "Extract the patient's motor response.",
+      "Options": [
+        "6-Obeys commands",
+        "5-Localising",
+        "4-Normal flexion",
+        "3-Abnormal flexion",
+        "2-Extension",
+        "1-None",
+        "NT- Non testable"
+      ]
+    },
+    {
+      "Field Name": "Glasgow Coma Score",
+      "Prompt": "Extract the patient's glasgow coma score.",
+      "Desired Format": "Add up previous 3 rows (score out of 15)"
+    }
+  ],
+  "Neuromuscular/Extremities Assessment": [
+    {
+      "Field Name": "Grip strength",
+      "Prompt": "Extract the patient's grip strength.",
+      "Options": [
+        "Left hand stronger than right",
+        "Right hand stronger than left",
+        "Equal grip strength"
+      ]
+    },
+    {
+      "Field Name": "Grip strength left hand",
+      "Prompt": "Extract the patient's grip strength left hand.",
+      "Options": [
+        "Strong",
+        "Moderate",
+        "Weak",
+        "Unable to grip",
+        "Releases grip on command"
+      ]
+    },
+    {
+      "Field Name": "Grip strength right hand",
+      "Prompt": "Extract the patient's grip strength right hand.",
+      "Options": [
+        "Strong",
+        "Moderate",
+        "Weak",
+        "Unable to grip",
+        "Releases grip on command"
+      ]
+    },
+    {
+      "Field Name": "Arm/pronator drift",
+      "Prompt": "Extract the patient's arm/pronator drift.",
+      "Options": [
+        "Yes - arm drift",
+        "left",
+        "Yes - arm drift",
+        "right",
+        "Yes - pronator drift",
+        "left",
+        "Yes - pronator drift",
+        "right",
+        "No"
+      ]
+    },
+    {
+      "Field Name": "Gait",
+      "Prompt": "Extract the patient's gait.",
+      "Options": [
+        "Asymmetrical step length",
+        "High stepping",
+        "Limping",
+        "Non-ambulatory",
+        "Required assistive device",
+        "Scissoring",
+        "Shuffling",
+        "Slow",
+        "Staggering",
+        "Steady",
+        "Unable to walk",
+        "Uncoordinated",
+        "Unsteady",
+        "Wide based",
+        "Unable to assess",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Sitting balance",
+      "Prompt": "Extract the patient's sitting balance.",
+      "Options": [
+        "No issues",
+        "Leaning backward",
+        "Leaning forward",
+        "Leaning left",
+        "Leaning right",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Tone",
+      "Prompt": "Extract the patient's tone.",
+      "Options": [
+        "All extremities tone",
+        "Upper extremity tone",
+        "Lower extremity tone",
+        "General trunk tone",
+        "General neck tone"
+      ]
+    },
+    {
+      "Field Name": "Strength",
+      "Prompt": "Extract the patient's strength.",
+      "Options": [
+        "All extremities strength",
+        "Upper extremity strength",
+        "Lower extremity strength",
+        "General trunk strength"
+      ]
+    },
+    {
+      "Field Name": "Strength, all extremities",
+      "Prompt": "Extract the patient's strength, all extremities.",
+      "Options": [
+        "Full strength",
+        "Moves against some resistance",
+        "Moves against gravity",
+        "Active movement (not against gravity)",
+        "Contraction felt/seen",
+        "Absent"
+      ]
+    },
+    {
+      "Field Name": "Sensation",
+      "Prompt": "Extract the patient's sensation.",
+      "Options": [
+        "All extremities sensation",
+        "Upper extremity sensation",
+        "Lower extremity sensation",
+        "General trunk sensation"
+      ]
+    },
+    {
+      "Field Name": "Sensation, all extremities",
+      "Prompt": "Extract the patient's sensation, all extremities.",
+      "Options": [
+        "Intact",
+        "Absent",
+        "Decreased",
+        "Numbness",
+        "Pain",
+        "Tingling",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Movement",
+      "Prompt": "Extract the patient's movement.",
+      "Options": [
+        "All extremities movement",
+        "Upper extremity movement",
+        "Lower extremity movement"
+      ]
+    },
+    {
+      "Field Name": "Movement, all extremities",
+      "Prompt": "Extract the patient's movement, all extremities.",
+      "Options": [
+        "Strong to command",
+        "Moderate to command",
+        "Weak to command",
+        "Strong to pain/spontaneous",
+        "Moderate to pain/spontaneous",
+        "Weak to pain/spontaneous",
+        "Absent"
+      ]
+    },
+    {
+      "Field Name": "Head control",
+      "Prompt": "Extract the patient's head control.",
+      "Options": ["Good", "Adequate", "Limited", "Absent"]
+    }
+  ],
+  "Neurovascular Check": [
+    {
+      "Field Name": "Progressive severe pain",
+      "Prompt": "Extract the patient's progressive severe pain.",
+      "Options": ["Yes", "No"]
+    },
+    {
+      "Field Name": "Pain with passive movement",
+      "Prompt": "Extract the patient's pain with passive movement.",
+      "Options": ["Yes", "No"]
+    }
+  ],
+  "Neurovascular Upper": [
+    {
+      "Field Name": "Upper extremity assessment",
+      "Prompt": "Extract the patient's upper extremity assessment.",
+      "Options": ["Bilateral", "Left", "Right"]
+    },
+    {
+      "Field Name": "Bilateral upper extremity description",
+      "Prompt": "Extract the patient's bilateral upper extremity description.",
+      "Options": [
+        "Usual for ethnicity",
+        "Ashen",
+        "Cyanosis",
+        "Ecchymosis",
+        "Erythema",
+        "Flushed",
+        "Harlequin colour change",
+        "Jaundice",
+        "Mongolian spots",
+        "Mottled",
+        "Pallor",
+        "Petechiae",
+        "Plethoric",
+        "Purpura",
+        "Red",
+        "Ruddy",
+        "Sallow",
+        "Surgically painted",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Skin temperature, upper",
+      "Prompt": "Extract the patient's skin temperature, upper.",
+      "Options": ["Warm", "Cold", "Cool", "Hot"]
+    },
+    {
+      "Field Name": "Skin temperature hands bilateral",
+      "Prompt": "Extract the patient's skin temperature hands bilateral.",
+      "Options": ["Warm", "Cold", "Cool", "Hot"]
+    },
+    {
+      "Field Name": "Nail bed description bilateral hand",
+      "Prompt": "Extract the patient's nail bed description bilateral hand.",
+      "Options": [
+        "Usual for ethnicity",
+        "Pink",
+        "Black",
+        "Cyanotic",
+        "Dusky",
+        "Pale",
+        "Unable to assess",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Capillary Refill Bilateral Hand",
+      "Prompt": "Extract the patient's capillary refill bilateral hand.",
+      "Options": ["Less than or equal to 3s", " Greater than 3s"]
+    }
+  ],
+  "Neurovascular lower": [
+    {
+      "Field Name": "Lower extremity assessment",
+      "Prompt": "Extract the patient's lower extremity assessment.",
+      "Options": ["Bilateral", "Left", "Right"]
+    },
+    {
+      "Field Name": "Bilateral lower extremity description",
+      "Prompt": "Extract the patient's bilateral lower extremity description.",
+      "Options": [
+        "Usual for ethnicity",
+        "Ashen",
+        "Cyanosis",
+        "Ecchymosis",
+        "Erythema",
+        "Flushed",
+        "Harlequin colour change",
+        "Jaundice",
+        "Mongolian spots",
+        "Mottled",
+        "Pallor",
+        "Petechiae",
+        "Plethoric",
+        "Purpura",
+        "Red",
+        "Ruddy",
+        "Sallow",
+        "Surgically painted",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Skin temperature lower extremities",
+      "Prompt": "Extract the patient's skin temperature lower extremities.",
+      "Options": ["Warm", "Cold", "Cool", "Hot"]
+    },
+    {
+      "Field Name": "Skin temperature, feet bilateral",
+      "Prompt": "Extract the patient's skin temperature, feet bilateral.",
+      "Options": ["Warm", "Cold", "Cool", "Hot"]
+    },
+    {
+      "Field Name": "Nail bed description bilateral foot",
+      "Prompt": "Extract the patient's nail bed description bilateral foot.",
+      "Options": [
+        "Usual for ethnicity",
+        "Pink",
+        "Black",
+        "Cyanotic",
+        "Dusky",
+        "Pale",
+        "Unable to assess",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Capillary refill bilateral foot",
+      "Prompt": "Extract the patient's capillary refill bilateral foot.",
+      "Options": ["Less than or equal to 3s", "Greater than 3s"]
+    },
+    {
+      "Field Name": "Sensation all extremities",
+      "Prompt": "Extract the patient's sensation all extremities.",
+      "Options": [
+        "All extremeties sensation. ",
+        " Upper extremity sensation",
+        "Lower extremity sensation",
+        "General trunk sensation"
+      ]
+    },
+    {
+      "Field Name": "Movement, all extremities",
+      "Prompt": "Extract the patient's movement, all extremities.",
+      "Options": [
+        "Strong to command",
+        "Moderate to command",
+        "Weak to command",
+        "Strong to pain/spontaneous",
+        "Moderate to pain/spontaneous",
+        "Weak to pain/spontaneous",
+        "Absent"
+      ]
+    }
+  ],
+  "Cardiovascular assessment": [
+    {
+      "Field Name": "Cardiovascular symptoms reported?",
+      "Prompt": "Extract the patient's cardiovascular symptoms reported?.",
+      "Options": [
+        "None",
+        "Chest pain/pressure at rest",
+        "Chest pain/pressure with acitivity",
+        "Claudication",
+        "Cyanosis",
+        "Dizziness",
+        "Edema",
+        "Fatigue",
+        "Fluid retention",
+        "Leg pain",
+        "Not eating well",
+        "Palpitations",
+        "Poor feeding",
+        "Tachycardia",
+        "Vertigo",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Heart rhythm",
+      "Prompt": "Extract the patient's heart rhythm.",
+      "Options": ["Regular", "Irregular"]
+    },
+    {
+      "Field Name": "Heart sounds",
+      "Prompt": "Extract the patient's heart sounds.",
+      "Options": [
+        "S1:S2",
+        "Distant",
+        "Mechanical click",
+        "Extra heart sound",
+        "Muffled",
+        "Murmur",
+        "Pericardial friction rub",
+        "Ventricular assist device motor",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Heart sounds location",
+      "Prompt": "Extract the patient's heart sounds location.",
+      "Options": ["Aortic", "Pulmonic", "Mitral", "Tricuspid", "Erb's point"]
+    },
+    {
+      "Field Name": "Nail bed color",
+      "Prompt": "Extract the patient's nail bed color.",
+      "Options": [
+        "Usual for ethnicity",
+        "Pink",
+        "Black",
+        "Cyanotic",
+        "Dusky",
+        "Pale",
+        "Unable to assess",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Capillary refill peripheral",
+      "Prompt": "Extract the patient's capillary refill peripheral.",
+      "Options": ["Less than or equal to 3s", "Greater than 3s"]
+    }
+  ],
+  "Ischemic symptoms assessment": [
+    {
+      "Field Name": "Ischemic symptoms location/radiation",
+      "Prompt": "Extract the patient's ischemic symptoms location/radiation.",
+      "Options": [
+        "None",
+        "Central Chest",
+        "Chest left",
+        "Chest right",
+        "Retrosternal",
+        "Epigastric",
+        "Shoulders",
+        "Subscapular",
+        "Jaw",
+        "Neck/throat",
+        "Left arm",
+        "Right arm",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Ischemic symptoms quality",
+      "Prompt": "Extract the patient's ischemic symptoms quality.",
+      "Options": [
+        "Aching",
+        "Tightness",
+        "Pressure",
+        "Heaviness",
+        "Sharp",
+        "Dull",
+        "Crushing",
+        "Tingling",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Ischemic Associated symptoms",
+      "Prompt": "Extract the patient's ischemic associated symptoms.",
+      "Options": [
+        "None/denies",
+        "Shortness of breath",
+        "Clenching fist over sternum",
+        "Nasua/vomitting",
+        "Diaphoresis",
+        "Anxiety",
+        "Dizziness",
+        "Syncope",
+        "Palpitations",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Ischemic symptoms severity",
+      "Prompt": "Extract the patient's ischemic symptoms severity.",
+      "Options": ["0 to 10"]
+    },
+    {
+      "Field Name": "Ischemic symptoms timing",
+      "Prompt": "Extract the patient's ischemic symptoms timing.",
+      "Options": ["Started at rest", "Started with activity", "Other"]
+    },
+    {
+      "Field Name": "ST changes",
+      "Prompt": "Extract the patient's st changes.",
+      "Options": ["Yes-see rythm strip", "No"]
+    },
+    {
+      "Field Name": "Duration prior to assessment",
+      "Prompt": "Extract the patient's duration prior to assessment.",
+      "Desired Format": "hours"
+    },
+    {
+      "Field Name": "Ischemia management",
+      "Prompt": "Extract the patient's ischemia management.",
+      "Options": [
+        "Medication-see the MAR",
+        "Oxygen",
+        "Rest",
+        "Positioning",
+        "ECG ordered",
+        "Provider notified",
+        "Other"
+      ]
+    }
+  ],
+  "Cardiac Rhythm": [
+    {
+      "Field Name": "Sinus Rhythms",
+      "Prompt": "Extract the patient's sinus rhythms.",
+      "Options": [
+        "Normal sinus rhythm",
+        "Sinus tachycardia",
+        "Sinus bradycardia",
+        "Sinus arrhythmia",
+        "Sinus pause",
+        "Sinus arrest"
+      ]
+    },
+    {
+      "Field Name": "Atrial Rhythms",
+      "Prompt": "Extract the patient's atrial rhythms.",
+      "Options": [
+        "Supraventricular tachycardia",
+        "Supraventricular tachycardia with aberration",
+        "Reentrant tachycardia",
+        "Atrial fibrillation",
+        "Atrial fibrillation with rapid ventricular response",
+        "Atrial flutter",
+        "Atrial flutter with rapid ventricular response",
+        "Atrial escape rhythm",
+        "Multifocal atrial tachycardia",
+        "Wandering atrial pacemaker",
+        "Atrial tachycardia"
+      ]
+    },
+    {
+      "Field Name": "Paced",
+      "Prompt": "Extract the patient's paced.",
+      "Options": [
+        "Atrial and ventricular paced",
+        "Ventricular paced",
+        "Atrial paced"
+      ]
+    },
+    {
+      "Field Name": "Junctional",
+      "Prompt": "Extract the patient's junctional.",
+      "Options": [
+        "Accelerated junctional rhythm",
+        "Junctional escape rhythm",
+        "Junctional tachycardia",
+        "Premature junctional"
+      ]
+    },
+    {
+      "Field Name": "AV Block",
+      "Prompt": "Extract the patient's av block.",
+      "Options": [
+        "First degree heart A-V block",
+        "Second degree A-V block",
+        "Type I",
+        "Second degree A-V block",
+        "Type II",
+        "Third degree A-V block"
+      ]
+    },
+    {
+      "Field Name": "Bundle Branch Block",
+      "Prompt": "Extract the patient's bundle branch block.",
+      "Options": [
+        "Bundle branch block",
+        "Right bundle branch block",
+        "Left bundle branch block"
+      ]
+    },
+    {
+      "Field Name": "Ventricular Rhythms",
+      "Prompt": "Extract the patient's ventricular rhythms.",
+      "Options": [
+        "Ventricular tachycardia",
+        "Monomorphic ventricular tachycardia",
+        "Polymorphic ventricular tachycardia",
+        "Ventricular fibrillation",
+        "Torsades de pointes",
+        "Ventricular escape rhythm",
+        "Wide QRS tachycardia unknown origin"
+      ]
+    },
+    {
+      "Field Name": "Pulseless",
+      "Prompt": "Extract the patient's pulseless.",
+      "Options": ["Asystole", "Pulseless electrical activity"]
+    },
+    {
+      "Field Name": "Ectopy description",
+      "Prompt": "Extract the patient's ectopy description.",
+      "Options": [
+        "Premature atrial contraction(s)",
+        "Premature atrial contraction(s) with aberration",
+        "Premature junctional contraction(s)",
+        "Premature junctional contraction(s) with aberration",
+        "Premature ventricular contraction(s)",
+        "Premature wide QRS unknown origin",
+        "Premature ventricular contraction multifocal",
+        "Premature ventricular contraction unifocal",
+        "Sinus arrest",
+        "Sinus pause",
+        "Multifocal",
+        "Unifocal",
+        "Compensatory pause",
+        "Noncompensatory pause"
+      ]
+    },
+    {
+      "Field Name": "Ectopic pattern",
+      "Prompt": "Extract the patient's ectopic pattern.",
+      "Options": [
+        "Bigeminy",
+        "Couplets",
+        "Trigeminy",
+        "Triplets",
+        "Frequent",
+        "Infrequent",
+        "< 6 per minute",
+        "> 6 per minute",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Monitoring lead",
+      "Prompt": "Extract the patient's monitoring lead.",
+      "Options": [
+        "I",
+        "II",
+        "III",
+        "avR",
+        "avL",
+        "avF",
+        "V1/MCL1",
+        "V2/MCL2",
+        "V3/MCL3",
+        "V4/MCL4",
+        "V5/MCL5",
+        "V6/MCL6",
+        "12 standard leads"
+      ]
+    },
+    {
+      "Field Name": "Atrial rate",
+      "Prompt": "Extract the patient's atrial rate.",
+      "Desired Format": "number beats per minute",
+      "Options": "-"
+    },
+    {
+      "Field Name": "Ventricular rate",
+      "Prompt": "Extract the patient's ventricular rate.",
+      "Desired Format": "number beats per minute",
+      "Options": "-"
+    },
+    {
+      "Field Name": "PR interval",
+      "Prompt": "Extract the patient's pr interval.",
+      "Desired Format": "number",
+      "Options": "-"
+    },
+    {
+      "Field Name": "QRS duration",
+      "Prompt": "Extract the patient's qrs duration.",
+      "Desired Format": "number",
+      "Options": "-"
+    },
+    {
+      "Field Name": "QT interval",
+      "Prompt": "Extract the patient's qt interval.",
+      "Desired Format": "number",
+      "Options": "-"
+    },
+    {
+      "Field Name": "R to R interval",
+      "Prompt": "Extract the patient's r to r interval.",
+      "Desired Format": "number",
+      "Options": "-"
+    },
+    {
+      "Field Name": "QTc interval",
+      "Prompt": "Extract the patient's qtc interval.",
+      "Desired Format": "number",
+      "Options": "-"
+    },
+    {
+      "Field Name": "ST segment",
+      "Prompt": "Extract the patient's st segment.",
+      "Desired Format": "number",
+      "Options": "-"
+    },
+    {
+      "Field Name": "T wave",
+      "Prompt": "Extract the patient's t wave.",
+      "Desired Format": "number",
+      "Options": "-"
+    }
+  ],
+  "Pulses Assessment": [
+    {
+      "Field Name": "Pulses",
+      "Prompt": "Extract the patient's pulses.",
+      "Options": [
+        "Brachial",
+        "Brachial",
+        "bilateral",
+        "Breast",
+        "Breast",
+        "bilateral",
+        "Carotid",
+        "Carotid",
+        "bilateral",
+        "Dorsalis Pedis",
+        "Dorsalis Pedis",
+        "bilateral",
+        "Femoral",
+        "Femoral",
+        "bilateral",
+        "Popliteal",
+        "Popliteal",
+        "bilateral",
+        "Post-tibial",
+        "Post-tibial",
+        "bilateral",
+        "Radial",
+        "Radial",
+        "bilateral",
+        "Ulnar",
+        "Ulnar",
+        "bilateral"
+      ]
+    },
+    {
+      "Field Name": "Radial pulses, bilateral",
+      "Prompt": "Extract the patient's radial pulses, bilateral.",
+      "Options": [
+        "0 Absent",
+        "not palpable",
+        "1+ Diminished",
+        "difficult to palpate",
+        "thready",
+        "weak",
+        "2+ Expected",
+        "easy to palpate",
+        "3+ Full",
+        "increase",
+        "4+ Bounding",
+        "strong",
+        "Doppler",
+        "Unable to Assess"
+      ]
+    },
+    {
+      "Field Name": "Dorsalis Pedis, bilateral",
+      "Prompt": "Extract the patient's dorsalis pedis, bilateral.",
+      "Options": [
+        "0 Absent",
+        "not palpable",
+        "1+ Diminished",
+        "difficult to palpate",
+        "thready",
+        "weak",
+        "2+ Expected",
+        "easy to palpate",
+        "3+ Full",
+        "increase",
+        "4+ Bounding",
+        "strong",
+        "Doppler",
+        "Unable to Assess"
+      ]
+    },
+    {
+      "Field Name": "Edema Assessment",
+      "Prompt": "Extract the patient's edema assessment.",
+      "Options": [
+        "None",
+        "Lower Extremities",
+        "Anasarca",
+        "Generalized",
+        "Head & neck",
+        "Trunk",
+        "Upper Extremities"
+      ]
+    },
+    {
+      "Field Name": "Edema upper extremities?",
+      "Prompt": "Extract the patient's edema upper extremities?.",
+      "Options": ["None", "Mild", "Moderate", "Severe"]
+    },
+    {
+      "Field Name": "Edema lower extremities?",
+      "Prompt": "Extract the patient's edema lower extremities?.",
+      "Options": ["None", "Mild", "Moderate", "Severe"]
+    },
+    {
+      "Field Name": "Edema Location",
+      "Prompt": "Extract the patient's edema location.",
+      "Desired Format": "free text"
+    },
+    {
+      "Field Name": "Edema amount",
+      "Prompt": "Extract the patient's edema amount.",
+      "Options": [
+        "0 None",
+        "1+ Trace",
+        "2+ Slight",
+        "3+ Moderate",
+        "4+ Significant",
+        "Dependent",
+        "Non-Pitting"
+      ]
+    }
+  ],
+  "Respiratory Assessment": [
+    {
+      "Field Name": "Respiratory symptoms reported",
+      "Prompt": "Extract the patient's respiratory symptoms reported.",
+      "Options": [
+        "None",
+        "Cough",
+        "Denies shortness of breath at rest",
+        "Denies shortness of breath with usual activity",
+        "Has shortness of breath",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Shortness of breath",
+      "Prompt": "Extract the patient's shortness of breath.",
+      "Options": [
+        "Shortness of breath at rest",
+        "Shortness of breath with mild exertion",
+        "Shortness of breath with moderate exertion",
+        "Shortness of breath with exercise"
+      ]
+    },
+    {
+      "Field Name": "Respirations",
+      "Prompt": "Extract the patient's respirations.",
+      "Options": [
+        "Unlaboured",
+        "Regular",
+        "Irregular",
+        "Abdominal",
+        "Agonal",
+        "Air hunger",
+        "Apneic periods",
+        "Ataxic/Biot's",
+        "Audible",
+        "Central neurogenic hyperventilation",
+        "Cheyne Stokes",
+        "Deep sighs/yawns",
+        "Diaphragmatic",
+        "Even",
+        "Indrawing",
+        "Kussmaul",
+        "Laboured",
+        "Nasal flaring",
+        "Orthopnea",
+        "Paradoxical",
+        "Pauses/periodic breathing",
+        "Pursed lips",
+        "Quiet",
+        "Shallow",
+        "Tachypnea",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Patient position",
+      "Prompt": "Extract the patient's patient position.",
+      "Options": [
+        "Semi-Fowler's",
+        "Arm(s) elevated",
+        "Leaning forward",
+        "Leg(s) elevated",
+        "Lithotomy",
+        "Lying on left side",
+        "Lying on right side",
+        "Prone",
+        "Sitting",
+        "Semi-prone",
+        "Standing",
+        "Supine",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Cough and deep breathe",
+      "Prompt": "Extract the patient's cough and deep breathe.",
+      "Options": ["Done", "Incentive spirometry done", "Other"]
+    },
+    {
+      "Field Name": "Spontaneous cough",
+      "Prompt": "Extract the patient's spontaneous cough.",
+      "Options": ["Yes", "No"]
+    },
+    {
+      "Field Name": "Cough?",
+      "Prompt": "Extract the patient's cough?.",
+      "Options": [
+        "None",
+        "Assisted cough",
+        "Able to clear secretions",
+        "Unable to clear secretions",
+        "Dry",
+        "Croupy",
+        "Induced",
+        "Moderate",
+        "Moist",
+        "Nocturnal",
+        "Non-productive",
+        "Occasional",
+        "Persistent",
+        "Productive",
+        "Spontaneous (S)",
+        "Strong",
+        "Weak",
+        "Whooping"
+      ]
+    },
+    {
+      "Field Name": "Sputum amount",
+      "Prompt": "Extract the patient's sputum amount.",
+      "Options": ["None", "Scant", "Small", "Moderate", "Large", "Copious"]
+    },
+    {
+      "Field Name": "Nasal symptoms",
+      "Prompt": "Extract the patient's nasal symptoms.",
+      "Options": [
+        "None",
+        "Decreased smell",
+        "Deformity",
+        "Epistaxis",
+        "Foreign body",
+        "Loss of sense of smell",
+        "Nasal drainage",
+        "Redness",
+        "Sneezing",
+        "Stuffiness",
+        "Swelling",
+        "Other"
+      ]
+    }
+  ],
+  "Breath Sounds Assessment": [
+    {
+      "Field Name": "Breath Sounds Ausculated",
+      "Prompt": "Extract the patient's breath sounds ausculated.",
+      "Options": ["Anterior and Posterior", "Anterior only", "Posterior only"]
+    },
+    {
+      "Field Name": "All lobes breath sounds",
+      "Prompt": "Extract the patient's all lobes breath sounds.",
+      "Options": [
+        "Clear",
+        "Absent",
+        "Audible",
+        "Bronchial",
+        "Coarse crackles",
+        "Diminished",
+        "Expiratory wheeze",
+        "Faint",
+        "Fine crackles",
+        "Friction rub",
+        "Inspiratory wheeze",
+        "Prolonged expiration",
+        "Stridor",
+        "Upper airway congestion",
+        "Slightly decreased",
+        "Moderately decreased",
+        "Markedly decreased",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Left upper lobe breath sounds",
+      "Prompt": "Extract the patient's left upper lobe breath sounds.",
+      "Options": [
+        "Clear",
+        "Absent",
+        "Audible",
+        "Bronchial",
+        "Coarse crackles",
+        "Diminished",
+        "Expiratory wheeze",
+        "Faint",
+        "Fine crackles",
+        "Friction rub",
+        "Inspiratory wheeze",
+        "Prolonged expiration",
+        "Stridor",
+        "Upper airway congestion",
+        "Slightly decreased",
+        "Moderately decreased",
+        "Markedly decreased",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Right upper lobe breath sounds",
+      "Prompt": "Extract the patient's right upper lobe breath sounds.",
+      "Options": [
+        "Clear",
+        "Absent",
+        "Audible",
+        "Bronchial",
+        "Coarse crackles",
+        "Diminished",
+        "Expiratory wheeze",
+        "Faint",
+        "Fine crackles",
+        "Friction rub",
+        "Inspiratory wheeze",
+        "Prolonged expiration",
+        "Stridor",
+        "Upper airway congestion",
+        "Slightly decreased",
+        "Moderately decreased",
+        "Markedly decreased",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Right middle lobe breath sounds",
+      "Prompt": "Extract the patient's right middle lobe breath sounds.",
+      "Options": [
+        "Clear",
+        "Absent",
+        "Audible",
+        "Bronchial",
+        "Coarse crackles",
+        "Diminished",
+        "Expiratory wheeze",
+        "Faint",
+        "Fine crackles",
+        "Friction rub",
+        "Inspiratory wheeze",
+        "Prolonged expiration",
+        "Stridor",
+        "Upper airway congestion",
+        "Slightly decreased",
+        "Moderately decreased",
+        "Markedly decreased",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Left lower lobe breath sounds",
+      "Prompt": "Extract the patient's left lower lobe breath sounds.",
+      "Options": [
+        "Clear",
+        "Absent",
+        "Audible",
+        "Bronchial",
+        "Coarse crackles",
+        "Diminished",
+        "Expiratory wheeze",
+        "Faint",
+        "Fine crackles",
+        "Friction rub",
+        "Inspiratory wheeze",
+        "Prolonged expiration",
+        "Stridor",
+        "Upper airway congestion",
+        "Slightly decreased",
+        "Moderately decreased",
+        "Markedly decreased",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Right lower lobe breath sounds",
+      "Prompt": "Extract the patient's right lower lobe breath sounds.",
+      "Options": [
+        "Clear",
+        "Absent",
+        "Audible",
+        "Bronchial",
+        "Coarse crackles",
+        "Diminished",
+        "Expiratory wheeze",
+        "Faint",
+        "Fine crackles",
+        "Friction rub",
+        "Inspiratory wheeze",
+        "Prolonged expiration",
+        "Stridor",
+        "Upper airway congestion",
+        "Slightly decreased",
+        "Moderately decreased",
+        "Markedly decreased",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Apex breath sounds",
+      "Prompt": "Extract the patient's apex breath sounds.",
+      "Options": [
+        "Clear",
+        "Absent",
+        "Audible",
+        "Bronchial",
+        "Coarse crackles",
+        "Diminished",
+        "Expiratory wheeze",
+        "Faint",
+        "Fine crackles",
+        "Friction rub",
+        "Inspiratory wheeze",
+        "Prolonged expiration",
+        "Stridor",
+        "Upper airway congestion",
+        "Slightly decreased",
+        "Moderately decreased",
+        "Markedly decreased",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Base breath sounds",
+      "Prompt": "Extract the patient's base breath sounds.",
+      "Options": [
+        "Clear",
+        "Absent",
+        "Audible",
+        "Bronchial",
+        "Coarse crackles",
+        "Diminished",
+        "Expiratory wheeze",
+        "Faint",
+        "Fine crackles",
+        "Friction rub",
+        "Inspiratory wheeze",
+        "Prolonged expiration",
+        "Stridor",
+        "Upper airway congestion",
+        "Slightly decreased",
+        "Moderately decreased",
+        "Markedly decreased",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Upper airway breath sounds",
+      "Prompt": "Extract the patient's upper airway breath sounds.",
+      "Options": [
+        "Clear",
+        "Absent",
+        "Audible",
+        "Bronchial",
+        "Coarse crackles",
+        "Diminished",
+        "Expiratory wheeze",
+        "Faint",
+        "Fine crackles",
+        "Friction rub",
+        "Inspiratory wheeze",
+        "Prolonged expiration",
+        "Stridor",
+        "Upper airway congestion",
+        "Slightly decreased",
+        "Moderately decreased",
+        "Markedly decreased",
+        "Other"
+      ]
+    }
+  ],
+  "Gastrointestinal Assessment": [
+    {
+      "Field Name": "GI symptoms reported",
+      "Prompt": "Extract the patient's gi symptoms reported.",
+      "Options": [
+        "None",
+        "Abdominal tenderness",
+        "Anorexia",
+        "Constipation",
+        "Cramping",
+        "Diarrhea",
+        "Heartburn",
+        "Impaction",
+        "Incontinence",
+        "Nausea",
+        "Sharp abdominal pain",
+        "Stools",
+        "black/bloody",
+        "Vomiting",
+        "Vomiting blood",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Abdomen description",
+      "Prompt": "Extract the patient's abdomen description.",
+      "Options": [
+        "Rounded",
+        "Flat",
+        "Ascites",
+        "Asymmetric",
+        "Bulges",
+        "Distended",
+        "Hernia",
+        "Obese",
+        "Open",
+        "Pannus",
+        "Pregnant",
+        "Protuberant",
+        "Pulsations",
+        "Sunken",
+        "Shiny",
+        "Symmetric",
+        "Taut",
+        "Veins dilated"
+      ]
+    },
+    {
+      "Field Name": "Abdomen palpation",
+      "Prompt": "Extract the patient's abdomen palpation.",
+      "Options": [
+        "Soft",
+        "Non-Tender",
+        "Firm",
+        "Guarding",
+        "Masses",
+        "Rigid",
+        "Rebound tenderness",
+        "Tender to palpation"
+      ]
+    },
+    {
+      "Field Name": "Bowel Sounds Assessment",
+      "Prompt": "Extract the patient's bowel sounds assessment.",
+      "Options": [
+        "Present",
+        "Absent",
+        "Active",
+        "High pitched",
+        "Hyperactive",
+        "Hypoactive",
+        "Tympanic",
+        "Unable to assess"
+      ]
+    },
+    {
+      "Field Name": "Bowel sounds all quadrants",
+      "Prompt": "Extract the patient's bowel sounds all quadrants.",
+      "Options": [
+        "Present",
+        "Absent",
+        "Active",
+        "High pitched",
+        "Hyperactive",
+        "Hypoactive",
+        "Tympanic",
+        "Unable to assess"
+      ]
+    },
+    {
+      "Field Name": "Bowel sounds LUQ",
+      "Prompt": "Extract the patient's bowel sounds luq.",
+      "Options": [
+        "Present",
+        "Absent",
+        "Active",
+        "High pitched",
+        "Hyperactive",
+        "Hypoactive",
+        "Tympanic",
+        "Unable to assess"
+      ]
+    },
+    {
+      "Field Name": "Bowel sounds RUQ",
+      "Prompt": "Extract the patient's bowel sounds ruq.",
+      "Options": [
+        "Present",
+        "Absent",
+        "Active",
+        "High pitched",
+        "Hyperactive",
+        "Hypoactive",
+        "Tympanic",
+        "Unable to assess"
+      ]
+    },
+    {
+      "Field Name": "Bowel sounds LLQ",
+      "Prompt": "Extract the patient's bowel sounds llq.",
+      "Options": [
+        "Present",
+        "Absent",
+        "Active",
+        "High pitched",
+        "Hyperactive",
+        "Hypoactive",
+        "Tympanic",
+        "Unable to assess"
+      ]
+    },
+    {
+      "Field Name": "Bowel Sounds RLQ",
+      "Prompt": "Extract the patient's bowel sounds rlq.",
+      "Options": [
+        "Present",
+        "Absent",
+        "Active",
+        "High pitched",
+        "Hyperactive",
+        "Hypoactive",
+        "Tympanic",
+        "Unable to assess"
+      ]
+    },
+    {
+      "Field Name": "Nausea level",
+      "Prompt": "Extract the patient's nausea level.",
+      "Options": ["None/absent", "Mild", "Moderate", "Severe"]
+    },
+    {
+      "Field Name": "Appetite",
+      "Prompt": "Extract the patient's appetite.",
+      "Options": ["Good", "Fair", "Poor"]
+    },
+    {
+      "Field Name": "Nutrition risk factors",
+      "Prompt": "Extract the patient's nutrition risk factors.",
+      "Options": [
+        "N/A",
+        "Cancer",
+        "Congenital heart disease",
+        "Constipation",
+        "Cystic Fibrosis",
+        "Decreased food intake for the past 7 days",
+        "Diarrhea",
+        "Digestion",
+        "Eating disorder",
+        "Enteral feedings",
+        "Failure to thrive",
+        "Fluid intake less than 50% of normal in last 3 days",
+        "Fortified breast milk or fortified baby formula at home",
+        "Kidney failure",
+        "Liver failure",
+        "Nausea",
+        "Non food craving",
+        "Significant GI problems",
+        "Skin breakdown or pressure ulcer",
+        "Spinal muscular atrophy",
+        "TPN",
+        "Tube feeding at home",
+        "Vomiting",
+        "Weight decrease of more than 5%",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Emesis yes/no",
+      "Prompt": "Extract the patient's emesis yes/no.",
+      "Options": ["Yes", "No"]
+    },
+    {
+      "Field Name": "Emesis description",
+      "Prompt": "Extract the patient's emesis description.",
+      "Options": [
+        "Bile",
+        "Black",
+        "Blood clots",
+        "Blood-tinged",
+        "Bloody",
+        "Blue",
+        "Bright red",
+        "Brown",
+        "Clay",
+        "Clear",
+        "Coffee grounds",
+        "Fecal odour",
+        "Formula",
+        "Foul smelling",
+        "Green",
+        "Melena",
+        "Mucous",
+        "Orange",
+        "Pink",
+        "Projectile",
+        "Purulent",
+        "Serosanguinous",
+        "Serous",
+        "Tube feeds",
+        "Undigested food",
+        "Undigested medication",
+        "Watery",
+        "White",
+        "Yellow",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Emesis amount",
+      "Prompt": "Extract the patient's emesis amount.",
+      "Options": ["None/absent", "Small", "Moderate", "Large"]
+    },
+    {
+      "Field Name": "Bowel movement last date",
+      "Prompt": "Extract the patient's bowel movement last date.",
+      "Desired Format": "date-month-year"
+    },
+    {
+      "Field Name": "Passing flatus",
+      "Prompt": "Extract the patient's passing flatus.",
+      "Options": ["Yes", "No"]
+    },
+    {
+      "Field Name": "Stool volume",
+      "Prompt": "Extract the patient's stool volume.",
+      "Desired Format": "ml"
+    },
+    {
+      "Field Name": "Stool count",
+      "Prompt": "Extract the patient's stool count.",
+      "Desired Format": "number"
+    },
+    {
+      "Field Name": "Stool amount",
+      "Prompt": "Extract the patient's stool amount.",
+      "Options": ["Smear", "Small", "Moderate", "Large"]
+    },
+    {
+      "Field Name": "Stool color",
+      "Prompt": "Extract the patient's stool color.",
+      "Options": [
+        "Black",
+        "Blood",
+        "frank",
+        "Blood-tinged",
+        "Brown",
+        "Clay",
+        "Green",
+        "Maroon",
+        "Melena",
+        "White",
+        "Yellow"
+      ]
+    },
+    {
+      "Field Name": "Stool description",
+      "Prompt": "Extract the patient's stool description.",
+      "Options": [
+        "Bloody",
+        "Clots",
+        "Floater",
+        "Formed",
+        "Frothy",
+        "Hard",
+        "Liquid",
+        "Loose",
+        "Melena",
+        "Mucous",
+        "Parasitic",
+        "Pasty",
+        "Seedy",
+        "Semi-Formed",
+        "Sinker",
+        "Soft",
+        "Tarry"
+      ]
+    },
+    {
+      "Field Name": "Episodes of bowel accidents",
+      "Prompt": "Extract the patient's episodes of bowel accidents.",
+      "Desired Format": "number"
+    },
+    {
+      "Field Name": "Bristol stool form scale",
+      "Prompt": "Extract the patient's bristol stool form scale.",
+      "Options": [
+        "Type 1: Separate hard lumps",
+        "like nuts (hard to pass)",
+        "Type 2: Sausage-shaped but lumpy",
+        "Type 3: Like a sausage or snake but with cracks on its surface",
+        "Type 4: Like a sausage or snake",
+        "smooth and soft",
+        "Type 5: Soft blobs with clear-cut edges (passed easily)",
+        "Type 6: Fluffy pieces with ragged edges",
+        "a mushy stool",
+        "Type 7: Watery",
+        "Entirely liquid"
+      ]
+    }
+  ],
+  "Genitourinary": [
+    {
+      "Field Name": "Urinary symptoms reported",
+      "Prompt": "Extract the patient's urinary symptoms reported.",
+      "Options": [
+        "No issues",
+        "Burning",
+        "Difficulty starting stream",
+        "Dribbling",
+        "Enuresis",
+        "Frequency",
+        "Hesitancy",
+        "Incontinence",
+        "Nocturia",
+        "Polyuria",
+        "Urgency",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Urinary elimination",
+      "Prompt": "Extract the patient's urinary elimination.",
+      "Options": [
+        "Voiding",
+        "no difficulties",
+        "Voiding with difficulties",
+        "Has not voided",
+        "Continent",
+        "Incontinent",
+        "Strained",
+        "Bedpan/Urinal",
+        "Commode",
+        "Condom catheter",
+        "Diapers/Briefs",
+        "Toilet",
+        "Urinary catheter",
+        "Urostomy",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Urine voided",
+      "Prompt": "Extract the patient's urine voided.",
+      "Desired Format": "ml"
+    },
+    {
+      "Field Name": "Urine amount unmeasured",
+      "Prompt": "Extract the patient's urine amount unmeasured.",
+      "Desired Format": "ml"
+    },
+    {
+      "Field Name": "Urine colour",
+      "Prompt": "Extract the patient's urine colour.",
+      "Options": [
+        "Yellow",
+        "Amber",
+        "Bloody",
+        "Blue",
+        "Brown",
+        "Clear",
+        "Clots",
+        "Cloudy",
+        "Dilute",
+        "Green",
+        "Hazy",
+        "Mucous",
+        "Orange",
+        "Pink",
+        "Purulent",
+        "Red",
+        "Sediment",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Urine odour",
+      "Prompt": "Extract the patient's urine odour.",
+      "Options": [
+        "Odourless",
+        "Ammonia",
+        "Fecal",
+        "Foul",
+        "Sour",
+        "Sweet",
+        "Characteristic odour",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Bladder distension",
+      "Prompt": "Extract the patient's bladder distension.",
+      "Options": ["Absent", "Present"]
+    }
+  ],
+  "Integumentary Assessment": [
+    {
+      "Field Name": "Head to toe pressure injury skin check",
+      "Prompt": "Extract the patient's head to toe pressure injury skin check.",
+      "Options": ["All sites Intact", "Other"]
+    },
+    {
+      "Field Name": "Skin color general",
+      "Prompt": "Extract the patient's skin color general.",
+      "Options": [
+        "Usual for ethnicity",
+        "Ashen",
+        "Cyanosis",
+        "Dusky",
+        "Flushed",
+        "Harlequin color change",
+        "Jaundice",
+        "Mottled",
+        "Pallor",
+        "Pink",
+        "Plethoric",
+        "Ruddy",
+        "Sallow",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Skin temperature",
+      "Prompt": "Extract the patient's skin temperature.",
+      "Options": ["Warm", "Cold", "Cool", "Hot"]
+    },
+    {
+      "Field Name": "Skin moisture",
+      "Prompt": "Extract the patient's skin moisture.",
+      "Options": ["Dry", "Moist", "Clammy", "Diaphoretic", "Excessive dryness"]
+    },
+    {
+      "Field Name": "Skin integrity general",
+      "Prompt": "Extract the patient's skin integrity general.",
+      "Options": [
+        "Intact",
+        "Localized abnormality",
+        "Fragile",
+        "Peeling",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Skin turgor",
+      "Prompt": "Extract the patient's skin turgor.",
+      "Options": ["Elastic", "Non-Elastic", "Tenting", "Tight"]
+    },
+    {
+      "Field Name": "Dermatitis radiation",
+      "Prompt": "Extract the patient's dermatitis radiation.",
+      "Options": ["None", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5"]
+    },
+    {
+      "Field Name": "Mucous membrane location",
+      "Prompt": "Extract the patient's mucous membrane location.",
+      "Options": ["Oral", "Nasal", "Anal", "Perineal", "Eye", "Other"]
+    },
+    {
+      "Field Name": "Mucous membrane colour",
+      "Prompt": "Extract the patient's mucous membrane colour.",
+      "Options": [
+        "Pink",
+        "Cyanotic",
+        "Dusky",
+        "Jaundice",
+        "Pale",
+        "Red",
+        "White",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Mucous membrane description",
+      "Prompt": "Extract the patient's mucous membrane description.",
+      "Options": [
+        "Moist",
+        "Intact",
+        "Coated tongue",
+        "Cracked",
+        "Dry",
+        "Malodorous",
+        "Tacky",
+        "Ulcerated",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Bruising status",
+      "Prompt": "Extract the patient's bruising status.",
+      "Options": ["Old", "New"]
+    },
+    {
+      "Field Name": "Petechiae present",
+      "Prompt": "Extract the patient's petechiae present.",
+      "Options": ["Yes", "N/A"]
+    },
+    {
+      "Field Name": "Rash present",
+      "Prompt": "Extract the patient's rash present.",
+      "Options": ["Yes", "N/A"]
+    }
+  ],
+  "Braden Assessment": [
+    {
+      "Field Name": "Sensory perception",
+      "Prompt": "Assess the patient's sensory perception based on their ability to respond to stimuli. Rate from 1 (completely limited) to 4 (no impairment).",
+      "Options": [
+        "Completely limited-1",
+        "Very limited-2",
+        "Slightly limited-3",
+        "No impairment-4"
+      ]
+    },
+    {
+      "Field Name": "Moisture",
+      "Prompt": "Assess the patient's moisture level based on the frequency of moisture exposure. Rate from 1 (constantly moist) to 4 (rarely moist).",
+      "Options": [
+        "Constantly moist-1",
+        "Very moist-2",
+        "Occasionally moist-3",
+        "Rarely moist-4"
+      ]
+    },
+    {
+      "Field Name": "Activity",
+      "Prompt": "Assess the patient's activity level based on their ability to move. Rate from 1 (bedfast) to 4 (walks frequently).",
+      "Options": [
+        "Bedfast-1",
+        "Chair fast-2",
+        "Walks occasionally-3",
+        "Walks frequently-4"
+      ]
+    },
+    {
+      "Field Name": "Mobility",
+      "Prompt": "Assess the patient's mobility based on their ability to move. Rate from 1 (completely immobile) to 4 (no limitation).",
+      "Options": [
+        "Completely immobile-1",
+        "Very limited-2",
+        "Slightly limited-3",
+        "No limitation-4"
+      ]
+    },
+    {
+      "Field Name": "Nutrition",
+      "Prompt": "Assess the patient's nutrition based on their current dietary intake. Rate from 1 (very poor) to 4 (excellent).",
+      "Options": [
+        "Very poor-1",
+        "Probably inadequate-2",
+        "Adequate-3",
+        "Excellent-4"
+      ]
+    },
+    {
+      "Field Name": "Friction and Shear",
+      "Prompt": "Assess the patient's risk of friction and shear based on their mobility and activity level. Rate from 1 (problem) to 3 (no apparent problem).",
+      "Options": ["Problem-1", "Potential problem-2", "No apparent problem-3"]
+    },
+    {
+      "Field Name": "Braden score",
+      "Prompt": "Calculate the patient's overall Braden score by summing the scores of sensory perception, moisture, activity, mobility, nutrition, and friction/shear. The total score ranges from 4 to 20, with lower scores indicating higher risk of pressure ulcers.",
+      "Options": [
+        "4-6 (Very high risk)",
+        "7-9 (High risk)",
+        "10-12 (Moderate risk)",
+        "13-14 (Low risk)",
+        "15-18 (Very low risk)",
+        "19-20 (No risk)"
+      ]
+    }
+  ],
+  "Incision/Wound/Skin/Pin site": [
+    {
+      "Field Name": "Activity",
+      "Prompt": "Extract the patient's activity.",
+      "Options": [
+        "Ambulating",
+        "Bedrest",
+        "Sitting",
+        "Standing",
+        "Limited mobility"
+      ]
+    },
+    {
+      "Field Name": "Goal of care",
+      "Prompt": "Extract the patient's goal of care.",
+      "Options": [
+        "Wound healing",
+        "Pain management",
+        "Infection prevention",
+        "Function restoration",
+        "Cosmetic outcome",
+        "Comfort care"
+      ]
+    },
+    {
+      "Field Name": "Type/Etiology",
+      "Prompt": "Extract the patient's type/etiology.",
+      "Options": [
+        "Surgical",
+        "Traumatic",
+        "Pressure ulcer",
+        "Venous stasis",
+        "Arterial",
+        "Diabetic foot ulcer",
+        "Burn",
+        "Other"
+      ]
+    },
+    {
+      "Field Name": "Incision detail",
+      "Prompt": "Extract the patient's incision detail.",
+      "Options": [
+        "Clean",
+        "Contaminated",
+        "Infected",
+        "Dehisced",
+        "Surgical closure",
+        "Stapled",
+        "Sutured",
+        "Staples removed",
+        "Suture removed"
+      ]
+    },
+    {
+      "Field Name": "Skin abnormality pattern",
+      "Prompt": "Extract the patient's skin abnormality pattern.",
+      "Options": [
+        "Blisters",
+        "Bruising",
+        "Redness",
+        "Induration",
+        "Erythema",
+        "Rash",
+        "Excoriation",
+        "Fissures",
+        "Laceration",
+        "Ulceration",
+        "Nodules",
+        "Scales"
+      ]
+    },
+    {
+      "Field Name": "Skin abnormality color",
+      "Prompt": "Extract the patient's skin abnormality color.",
+      "Options": [
+        "Red",
+        "Pink",
+        "Purple",
+        "Blue",
+        "Black",
+        "Yellow",
+        "Brown",
+        "White",
+        "Pale"
+      ]
+    },
+    {
+      "Field Name": "Dressing type",
+      "Prompt": "Extract the patient's dressing type.",
+      "Options": [
+        "Gauze",
+        "Hydrocolloid",
+        "Hydrogel",
+        "Foam",
+        "Alginate",
+        "Transparent film",
+        "Antimicrobial",
+        "Silver",
+        "Honey",
+        "Vacuum-assisted closure (VAC)",
+        "Collagen",
+        "Bandage"
+      ]
+    },
+    {
+      "Field Name": "Dressing assessment",
+      "Prompt": "Extract the patient's dressing assessment.",
+      "Options": [
+        "Dry",
+        "Moist",
+        "Wet",
+        "Saturated",
+        "Non-adherent",
+        "Adherent",
+        "Loose",
+        "Intact",
+        "Damaged",
+        "Clean"
+      ]
+    },
+    {
+      "Field Name": "Wound treatment plan",
+      "Prompt": "Extract the patient's wound treatment plan.",
+      "Options": [
+        "Debridement",
+        "Topical treatment",
+        "Antibiotics",
+        "Compression therapy",
+        "Surgical intervention",
+        "Dressings changes",
+        "Wound VAC",
+        "Pain management",
+        "Hydration and nutrition support",
+        "Observation and monitoring"
+      ]
+    },
+    {
+      "Field Name": "Dressing activity",
+      "Prompt": "Extract the patient's dressing activity.",
+      "Options": [
+        "Applied",
+        "Removed",
+        "Changed",
+        "Adjusted",
+        "Secured",
+        "Moistened"
+      ]
+    },
+    {
+      "Field Name": "Cleansing",
+      "Prompt": "Extract the patient's cleansing.",
+      "Options": [
+        "Normal saline",
+        "Sterile water",
+        "Antiseptic solution",
+        "Hydrogen peroxide",
+        "Iodine-based solution",
+        "Chlorhexidine"
+      ]
+    },
+    {
+      "Field Name": "Odour present after cleansing",
+      "Prompt": "Extract the patient's odour present after cleansing.",
+      "Options": ["None", "Foul", "Musty", "Sweet", "No change"]
+    },
+    {
+      "Field Name": "Solution used",
+      "Prompt": "Extract the patient's solution used.",
+      "Options": [
+        "Normal saline",
+        "Sterile water",
+        "Chlorhexidine",
+        "Hydrogen peroxide",
+        "Iodine-based solution",
+        "Acidic solution"
+      ]
+    },
+    {
+      "Field Name": "Topical agent application",
+      "Prompt": "Extract the patient's topical agent application.",
+      "Options": [
+        "Antiseptic",
+        "Antibiotic ointment",
+        "Hydrocortisone",
+        "Silver sulfadiazine",
+        "Mupirocin",
+        "Honey",
+        "Collagen",
+        "Wound gel"
+      ]
+    },
+    {
+      "Field Name": "Length",
+      "Prompt": "Extract the patient's length.",
+      "Desired Format": "cm"
+    },
+    {
+      "Field Name": "Width",
+      "Prompt": "Extract the patient's width.",
+      "Desired Format": "cm"
+    },
+    {
+      "Field Name": "Depth",
+      "Prompt": "Extract the patient's depth.",
+      "Desired Format": "cm"
+    },
+    {
+      "Field Name": "Number of sinus tract locations",
+      "Prompt": "Extract the patient's number of sinus tract locations.",
+      "Desired Format": "number"
+    },
+    {
+      "Field Name": "Number of undermining locations",
+      "Prompt": "Extract the patient's number of undermining locations.",
+      "Desired Format": "number"
+    },
+    {
+      "Field Name": "Wound edge",
+      "Prompt": "Extract the patient's wound edge.",
+      "Options": [
+        "Regular",
+        "Irregular",
+        "Rolled",
+        "Raised",
+        "Epibole",
+        "Macerated"
+      ]
+    },
+    {
+      "Field Name": "Periwound skin condition",
+      "Prompt": "Extract the patient's periwound skin condition.",
+      "Options": [
+        "Intact",
+        "Redness",
+        "Edema",
+        "Maceration",
+        "Dryness",
+        "Excoriation",
+        "Hyperkeratosis",
+        "Infection"
+      ]
+    },
+    {
+      "Field Name": "Wound bed percent pink/red",
+      "Prompt": "Extract the patient's wound bed percent pink/red.",
+      "Desired Format": "percentage"
+    },
+    {
+      "Field Name": "Wound bed percent granulation",
+      "Prompt": "Extract the patient's wound bed percent granulation.",
+      "Desired Format": "percentage"
+    },
+    {
+      "Field Name": "Wound bed percent slough",
+      "Prompt": "Extract the patient's wound bed percent slough.",
+      "Desired Format": "percentage"
+    },
+    {
+      "Field Name": "Wound bed percent Eschar dry",
+      "Prompt": "Extract the patient's wound bed percent eschar dry.",
+      "Desired Format": "percentage"
+    },
+    {
+      "Field Name": "Wound bed percent eschar wet",
+      "Prompt": "Extract the patient's wound bed percent eschar wet.",
+      "Desired Format": "percentage"
+    },
+    {
+      "Field Name": "Wound bed percent foreign body",
+      "Prompt": "Extract the patient's wound bed percent foreign body.",
+      "Options": [
+        "0% - No foreign body present; wound bed clean",
+        "25% - Small portion of wound bed contains foreign material",
+        "50% - Moderate amount of foreign material covering the wound bed",
+        "75% - Majority of wound bed contains foreign material",
+        "100% - Entire wound bed is covered by foreign material or objects"
+      ]
+    },
+    {
+      "Field Name": "Wound bed percent underlying structures",
+      "Prompt": "Extract the patient's wound bed percent underlying structures.",
+      "Options": [
+        "0% - Granulation or epithelial tissue, no underlying structures visible",
+        "25% - Small portion of bone, tendon, or other underlying structures visible",
+        "50% - Significant portion of the wound bed exposes underlying structures",
+        "75% - Most of the wound bed exposes bone, tendon, or other structures",
+        "100% - Entire wound bed exposes underlying structures such as bone, tendon, or muscle"
+      ]
+    },
+    {
+      "Field Name": "Wound bed percent not visible",
+      "Prompt": "Extract the patient's wound bed percent not visible.",
+      "Options": ["None", "Minimal", "Moderate", "Large", "Complete"]
+    },
+    {
+      "Field Name": "Wound bed percent other",
+      "Prompt": "Extract the patient's wound bed percent other.",
+      "Options": [
+        "Necrotic Tissue ${percentage}%",
+        "Epithelium ${percentage}%",
+        "Fibrin ${percentage}%",
+        "Exposed Structures ${percentage}%",
+        "Non-Granulating Tissue ${percentage}%",
+        "Foreign Material ${percentage}%"
+      ]
+    },
+    {
+      "Field Name": "Exudate type",
+      "Prompt": "Extract the patient's exudate type.",
+      "Options": [
+        "Serous",
+        "Sanguineous",
+        "Serosanguineous",
+        "Purulent",
+        "Fibrinous",
+        "Hemorrhagic"
+      ]
+    },
+    {
+      "Field Name": "Exudate volume",
+      "Prompt": "Extract the patient's exudate volume.",
+      "Options": [
+        "None",
+        "Scant",
+        "Minimal",
+        "Moderate",
+        "Large/Copious",
+        "Excessive"
+      ]
+    },
+    {
+      "Field Name": "Exudate Amount",
+      "Prompt": "Extract the patient's exudate Amount.",
+      "Options": ["None", "Small", "Moderate", "Moderate", "Large", "Copious"]
+    },
+    {
+      "Field Name": "Debridement",
+      "Prompt": "Extract the patient's debridement.",
+      "Options": [
+        "Surgical",
+        "Mechanical",
+        "Autolytic",
+        "Enzymatic",
+        "Biological (Maggot Therapy)",
+        "Ultrasonic"
+      ]
+    },
+    {
+      "Field Name": "Wound packing count in",
+      "Prompt": "Count the number of pieces of packing material you insert.",
+      "Desired Format": "a number"
+    },
+    {
+      "Field Name": "Wound packing count out",
+      "Prompt": "Count the number of pieces of packing material you remove.",
+      "Desired Format": "a number"
+    },
+    {
+      "Field Name": "Leeches used",
+      "Prompt": "Extract the patient's leeches used.",
+      "Options": ["Yes", "No"]
+    }
+  ],
+  "Adult lines and devices assessment": [
+    {
+      "Field Name": "Peripheral IV assessment",
+      "Prompt": "Extract the patient's peripheral iv assessment.",
+      "Options": [
+        "Intact",
+        "Redness",
+        "Swelling",
+        "Painful",
+        "Infiltration",
+        "Extravasation",
+        "Phlebitis",
+        "Occlusion"
+      ]
+    },
+    {
+      "Field Name": "Activity",
+      "Prompt": "Extract the patient's activity.",
+      "Options": []
+    },
+    {
+      "Field Name": "Removal",
+      "Prompt": "Extract the patient's removal.",
+      "Options": [
+        "Scheduled",
+        "Emergency",
+        "Accidental",
+        "Patient request",
+        "Clinician recommendation"
+      ]
+    },
+    {
+      "Field Name": "Removal reason",
+      "Prompt": "Extract the patient's removal reason.",
+      "Options": [
+        "Infection",
+        "Phlebitis",
+        "Infiltration",
+        "Occlusion",
+        "Completion of therapy",
+        "Patient request",
+        "Discomfort"
+      ]
+    },
+    {
+      "Field Name": "Line status",
+      "Prompt": "Extract the patient's line status.",
+      "Options": [
+        "Active",
+        "Clotted",
+        "Occluded",
+        "Inactive",
+        "Discontinued",
+        "Flushable"
+      ]
+    },
+    {
+      "Field Name": "Line care",
+      "Prompt": "Extract the patient's line care.",
+      "Options": [
+        "Routine care",
+        "Daily dressing change",
+        "Sterile technique",
+        "Non-sterile technique",
+        "Antiseptic cleaning"
+      ]
+    },
+    {
+      "Field Name": "IV infusing",
+      "Prompt": "Extract the patient's iv infusing.",
+      "Options": [
+        "Normal saline",
+        "Antibiotics",
+        "Pain medication",
+        "Chemotherapy",
+        "Blood products",
+        "Fluids",
+        "Electrolytes"
+      ]
+    },
+    {
+      "Field Name": "Flush volume",
+      "Prompt": "Extract the patient's flush volume.",
+      "Options": ["3 mL", "5 mL", "10 mL", "20 mL", "Other"]
+    },
+    {
+      "Field Name": "Blood collected volume",
+      "Prompt": "Extract the patient's blood collected volume.",
+      "Options": ["5 mL", "10 mL", "20 mL", "50 mL", "Other"]
+    },
+    {
+      "Field Name": "Site assessment",
+      "Prompt": "Extract the patient's site assessment.",
+      "Options": [
+        "Clean",
+        "Redness",
+        "Swelling",
+        "Pain",
+        "Infiltration",
+        "Phlebitis",
+        "Dry",
+        "Moist",
+        "Bleeding"
+      ]
+    },
+    {
+      "Field Name": "Limb circumference",
+      "Prompt": "Extract the patient's limb circumference.",
+      "Options": [
+        "Measured in cm",
+        "No edema",
+        "Mild edema",
+        "Moderate edema",
+        "Severe edema"
+      ]
+    },
+    {
+      "Field Name": "Site care",
+      "Prompt": "Extract the patient's site care.",
+      "Options": [
+        "Clean dressing",
+        "Dry dressing",
+        "Moist dressing",
+        "Sterile dressing",
+        "Non-sterile dressing",
+        "Dressing change required"
+      ]
+    },
+    {
+      "Field Name": "Dressing activity",
+      "Prompt": "Extract the patient's dressing activity.",
+      "Options": [
+        "Change dressing",
+        "Reinforce dressing",
+        "Inspect dressing",
+        "Remove dressing",
+        "Replace dressing"
+      ]
+    },
+    {
+      "Field Name": "Securement type",
+      "Prompt": "Extract the patient's securement type.",
+      "Options": [
+        "Tape",
+        "Dressing",
+        "Securement device",
+        "Cloth bandage",
+        "Transparent dressing",
+        "Stabilization device"
+      ]
+    },
+    {
+      "Field Name": "Dressing condition",
+      "Prompt": "Extract the patient's dressing condition.",
+      "Options": [
+        "Clean",
+        "Wet",
+        "Soiled",
+        "Dry",
+        "Saturated",
+        "Intact",
+        "Damaged",
+        "Loose"
+      ]
+    },
+    {
+      "Field Name": "Maintenance bundle",
+      "Prompt": "Extract the patient's maintenance bundle.",
+      "Options": [
+        "Daily dressing change",
+        "IV site monitoring",
+        "Flush every 8 hours",
+        "Sterile technique",
+        "IV fluid monitoring",
+        "IV medication monitoring"
+      ]
+    },
+    {
+      "Field Name": "Unexpected events",
+      "Prompt": "Extract the patient's unexpected events.",
+      "Options": [
+        "Infiltration",
+        "Extravasation",
+        "Phlebitis",
+        "Line dislodgement",
+        "Patient discomfort",
+        "Occlusion",
+        "Bleeding"
+      ]
+    },
+    {
+      "Field Name": "Patient response",
+      "Prompt": "Extract the patient's patient response.",
+      "Options": [
+        "No discomfort",
+        "Mild discomfort",
+        "Moderate discomfort",
+        "Severe discomfort",
+        "No complaints",
+        "Positive response"
+      ]
+    }
+  ],
+  "Morse Fall Scale": [
+    {
+      "Field Name": "History of fall in last 3 months",
+      "Prompt": "Extract the patient's history of fall in last 3 months.",
+      "Options": ["No - 0", "Yes - 25"]
+    },
+    {
+      "Field Name": "Secondary diagnosis",
+      "Prompt": "Extract the patient's secondary diagnosis.",
+      "Options": ["No - 0", "Yes - 15"]
+    },
+    {
+      "Field Name": "Use of ambulatory aid",
+      "Prompt": "Extract the patient's use of ambulatory aid.",
+      "Options": [
+        "None/bedrest,use Wheel Chair/nurse Assistance - 0,",
+        "Crutches/cane/walker - 15",
+        "Furniture - 30"
+      ]
+    },
+    {
+      "Field Name": "IV or IV lock",
+      "Prompt": "Extract the patient's iv or iv lock.",
+      "Options": ["No - 0", "Yes - 20"]
+    },
+    {
+      "Field Name": "Gait",
+      "Prompt": "Extract the patient's gait.",
+      "Options": ["Normal/bedrest/immobile - 0", "Weak - 10", "Impaired - 20"]
+    },
+    {
+      "Field Name": "Mental status",
+      "Prompt": "Extract the patient's mental status.",
+      "Options": ["Oriented to own ability - 0", "Forgetful - 15"]
+    },
+    {
+      "Field Name": "Morse fall score",
+      "Prompt": "Extract the patient's morse fall score.",
+      "Options": ["Low risk - 0-24", "High risk - 25-125"]
+    }
+  ],
+  "Fall prevention interventions": [
+    {
+      "Field Name": "Fall intervention-mobility",
+      "Prompt": "Extract the patient's fall intervention-mobility.",
+      "Desired Format": "Free text"
+    },
+    {
+      "Field Name": "Fall intervention- environment",
+      "Prompt": "Extract the patient's fall intervention- environment.",
+      "Desired Format": "Free text"
+    },
+    {
+      "Field Name": "Fall intervention-elimination",
+      "Prompt": "Extract the patient's fall intervention-elimination.",
+      "Desired Format": "Free text"
+    },
+    {
+      "Field Name": "Manage sensory impairment",
+      "Prompt": "Extract the patient's manage sensory impairment.",
+      "Desired Format": "Free text"
+    }
+  ]
+}
